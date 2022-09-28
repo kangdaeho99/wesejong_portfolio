@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.wesejong.mapper.BoardDisLikeMapper">
+
+<select id="getList" resultType="org.wesejong.domain.BoardDisLikeVO">
+<![CDATA[
+select * from boarddislike where bdlno > 0 and bno = #{bno}
+]]>
+</select>
+
+<insert id="insert">
+    insert into boarddislike (bno, mem_seq, dislikecheck)
+    values (#{bno}, #{mem_seq}, #{dislikecheck})
+</insert>
+
+<insert id="insertSelectKey">
+	<selectKey keyProperty="bdlno" order="BEFORE" resultType="long">
+		select max(bdlno) from boarddislike
+	</selectKey>
+	insert into boarddislike (bdlno, bno, mem_seq, dislikecheck)
+	values (#{bdlno}+1, #{bno}, #{mem_seq}, #{dislikecheck})
+</insert>
+
+<select id="read" resultType="org.wesejong.domain.BoardDisLikeVO">
+	select * from boarddislike where bdlno = #{bdlno}
+</select>
+
+<select id="read_by_bno_and_mem_seq" resultType="org.wesejong.domain.BoardDisLikeVO">
+	select * from boarddislike where bno = #{bno} and mem_seq = #{mem_seq}
+</select>
+
+<delete id="delete">
+	delete from boarddislike where bdlno = #{bdlno}
+</delete>
+
+<delete id="delete_by_bno_and_mem_seq">
+	delete from boarddislike where bno = #{bno} and mem_seq = #{mem_seq}
+</delete>
+
+<update id="update">
+	update boarddislike
+	set bno = #{bno},
+	mem_seq=#{mem_seq},
+	dislikecheck=#{dislikecheck}
+	where bdlno=#{bdlno}
+</update>
+
+<select id="getExistsBoardDisLikeColumn" resultType="int">
+	select EXISTS
+		(select * from boarddislike where bno = #{bno} and mem_seq=#{mem_seq})
+	as EXISTENCE
+</select>
+
+<select id="getTotalBoardDisLikeCount_of_post_by_bno" resultType="long">
+<![CDATA[
+	select
+		count(*)
+	from 
+		boarddislike 
+	where bno = #{bno}
+]]>
+</select>
+
+</mapper>

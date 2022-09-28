@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.wesejong.mapper.MeetMatchTeamMateMapper">
+
+<select id="getList" resultType="org.wesejong.domain.MeetMatchTeamMateVO">
+<![CDATA[
+select * from meetmatchteammate where meetmatchteammate_seq > 0
+]]>
+</select>
+
+<select id="getList_by_mem_seq_of_member" resultType="org.wesejong.domain.MeetMatchTeamMateVO">
+<![CDATA[
+select * from meetmatchteammate where mem_seq = #{mem_seq}
+]]>
+</select>
+
+<select id="getList_by_meetmatchteam_seq_of_meetmatchteam" resultType="org.wesejong.domain.MeetMatchTeamMateVO">
+<![CDATA[
+select * from meetmatchteammate where meetmatchteam_seq = #{meetmatchteam_seq}
+]]>
+</select>
+
+<insert id="insert">
+    insert into meetmatchteammate (meetmatchteammate_gender, meetmatchteammate_department, meetmatchteammate_teamleaderflag, meetmatchteam_seq, mem_seq)
+    values (#{meetmatchteammate_gender}, #{meetmatchteammate_department}, #{meetmatchteam_seq}, #{meetmatchteammate_teamleaderflag}, #{mem_seq})
+</insert>
+
+<insert id="insertSelectKey">
+	<selectKey keyProperty="meetmatchteammate_seq" order="BEFORE" resultType="long">
+		select max(meetmatchteammate_seq) from meetmatchteammate
+	</selectKey>
+	insert into meetmatchteammate (meetmatchteammate_seq, meetmatchteammate_gender, meetmatchteammate_department, meetmatchteammate_teamleaderflag, meetmatchteammate_certified, meetmatchteam_seq, mem_seq)
+	values (#{meetmatchteammate_seq}+1, #{meetmatchteammate_gender}, #{meetmatchteammate_department}, #{meetmatchteammate_teamleaderflag}, #{meetmatchteammate_certified}, #{meetmatchteam_seq}, #{mem_seq})
+</insert>
+
+<select id="read" resultType="org.wesejong.domain.MeetMatchTeamMateVO">
+	select * from meetmatchteammate where meetmatchteammate_seq = #{meetmatchteammate_seq}
+</select>
+
+<delete id="delete">
+	delete from meetmatchteammate where meetmatchteammate_seq = #{meetmatchteammate_seq}
+</delete>
+
+<update id="update">
+	update meetmatchteammate
+	set meetmatchteammate_gender = #{meetmatchteammate_gender},
+	meetmatchteammate_department=#{meetmatchteammate_department},
+	meetmatchteammate_teamleaderflag=#{meetmatchteammate_teamleaderflag},
+	meetmatchteammate_certified=#{meetmatchteammate_certified},
+	meetmatchteammate_certifieddate=now(),
+	meetmatchteam_seq=#{meetmatchteam_seq},
+	mem_seq=#{mem_seq}
+	where meetmatchteammate_seq=#{meetmatchteammate_seq}
+</update>
+
+<select id="getCertifiedCount_by_meetmatchteam_seq_of_meetmatchteam" resultType="int">
+<![CDATA[
+select count(*) from meetmatchteammate where meetmatchteam_seq = #{meetmatchteam_seq} and meetmatchteammate_certified = 1 
+]]>
+</select>
+
+<select id="get_by_meetmatchteam_seq_and_mem_seq" resultType="org.wesejong.domain.MeetMatchTeamMateVO">
+	select * from meetmatchteammate where meetmatchteam_seq = #{meetmatchteam_seq} and mem_seq = #{mem_seq}
+</select>
+
+<update id="update_meetmatchteammate_certified_by_meetmatchteam_seq_and_mem_seq">
+	update meetmatchteammate
+	set meetmatchteammate_certified = #{meetmatchteammate_certified},
+	meetmatchteammate_certifieddate=now()
+	where meetmatchteam_seq = #{meetmatchteam_seq} and mem_seq = #{mem_seq}
+</update>
+
+</mapper>

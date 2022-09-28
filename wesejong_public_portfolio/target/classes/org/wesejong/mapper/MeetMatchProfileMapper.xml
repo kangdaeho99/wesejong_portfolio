@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.wesejong.mapper.MeetMatchProfileMapper">
+
+<select id="getList" resultType="org.wesejong.domain.MeetMatchProfileVO">
+<![CDATA[
+select * from meetmatchprofile where meetmatchprofile_seq > 0
+]]>
+</select>
+
+<insert id="insert">
+    insert into meetmatchprofile (meetmatchprofile_gender, meetmatchprofile_department, mem_seq)
+    values (#{meetmatchprofile_gender}, #{meetmatchprofile_department}, #{mem_seq})
+</insert>
+
+<insert id="insertSelectKey">
+	<selectKey keyProperty="meetmatchprofile_seq" order="BEFORE" resultType="long">
+		select max(meetmatchprofile_seq) from meetmatchprofile
+	</selectKey>
+	insert into meetmatchprofile (meetmatchprofile_seq, meetmatchprofile_gender, meetmatchprofile_department, mem_seq)
+	values (#{meetmatchprofile_seq}+1, #{meetmatchprofile_gender}, #{meetmatchprofile_department}, #{mem_seq})
+</insert>
+
+<select id="read" resultType="org.wesejong.domain.MeetMatchProfileVO">
+	select * from meetmatchprofile where meetmatchprofile_seq = #{meetmatchprofile_seq}
+</select>
+
+<select id="read_by_mem_seq" resultType="org.wesejong.domain.MeetMatchProfileVO">
+	select * from meetmatchprofile where mem_seq = #{mem_seq}
+</select>
+
+<delete id="delete">
+	delete from meetmatchprofile where meetmatchprofile_seq = #{meetmatchprofile_seq}
+</delete>
+
+<update id="update">
+	update meetmatchprofile
+	set meetmatchprofile_gender = #{meetmatchprofile_gender},
+	meetmatchprofile_department=#{meetmatchprofile_department},
+	mem_seq=#{mem_seq}
+	where meetmatchprofile_seq=#{meetmatchprofile_seq}
+</update>
+
+<select id="getExists_by_mem_seq" resultType="int">
+	select EXISTS
+		(select * from meetmatchprofile where mem_seq = #{mem_seq})
+	as EXISTENCE
+</select>
+
+
+</mapper>

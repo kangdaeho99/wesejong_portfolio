@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.wesejong.mapper.MeetMatchManageMapper">
+
+	<resultMap type="org.wesejong.domain.MeetMatchManageVO" id="meetmatchmanageMap">
+		<id property="meetmatchmanage_seq" column="meetmatchmanage_seq"/>
+		<result property="meetmatchmanage_seq" column="meetmatchmanage_seq"/>
+		<result property="meetmatchmanage_eventid" column="meetmatchmanage_eventid"/>
+		<result property="meetmatchmanage_eventtitle" column="meetmatchmanage_eventtitle"/>
+		<result property="meetmatchmanage_eventcontent" column="meetmatchmanage_eventcontent"/>
+		<result property="meetmatchmanage_eventregdate" column="meetmatchmanage_eventregdate"/>
+		<result property="meetmatchmanage_eventupdatedate" column="meetmatchmanage_eventupdatedate"/>
+		<result property="meetmatchmanage_eventstartdate" column="meetmatchmanage_eventstartdate" />
+    	<result property="meetmatchmanage_eventenddate" column="meetmatchmanage_eventenddate" />
+    	<result property="meetmatchmanage_eventreleasedate" column="meetmatchmanage_eventreleasedate" />
+    	<result property="meetmatchmanage_eventendflag" column="meetmatchmanage_eventendflag" />
+    	<collection property="meetmatchpersonnelmanagevoList" resultMap="meetmatchpersonnelmanageMap">
+    	</collection>
+	</resultMap>
+	
+	<resultMap type="org.wesejong.domain.MeetMatchPersonnelManageVO" id="meetmatchpersonnelmanageMap">
+		<result property="meetmatchpersonnelmanage_seq" column="meetmatchpersonnelmanage_seq"/>
+		<result property="meetmatchpersonnelmanage_personnel" column="meetmatchpersonnelmanage_personnel"/>
+		<result property="meetmatchmanage_seq" column="meetmatchmanage_seq"/>
+	</resultMap>
+
+<select id="getList" resultMap="meetmatchmanageMap">
+<![CDATA[
+select * from meetmatchmanage where meetmatchmanage_seq > 0
+]]>
+</select>
+
+<select id="getListWith_meetmatchpersonnelmanage" resultMap="meetmatchmanageMap">
+    
+    <![CDATA[
+			select
+			meetmatchmanage.meetmatchmanage_seq,
+			meetmatchmanage.meetmatchmanage_eventid,
+			meetmatchmanage.meetmatchmanage_eventtitle,
+			meetmatchmanage.meetmatchmanage_eventcontent,
+			meetmatchmanage.meetmatchmanage_eventregdate,
+			meetmatchmanage.meetmatchmanage_eventupdatedate,
+			meetmatchmanage.meetmatchmanage_eventstartdate,
+			meetmatchmanage.meetmatchmanage_eventenddate,
+			meetmatchmanage.meetmatchmanage_eventreleasedate,
+			meetmatchmanage.meetmatchmanage_eventendflag,
+			
+			meetmatchpersonnelmanage.meetmatchpersonnelmanage_seq,
+			meetmatchpersonnelmanage.meetmatchpersonnelmanage_personnel,
+			meetmatchpersonnelmanage.meetmatchmanage_seq
+			
+			from
+			meetmatchmanage
+			left join meetmatchpersonnelmanage 
+			on meetmatchmanage.meetmatchmanage_seq = meetmatchpersonnelmanage.meetmatchmanage_seq
+	]]>
+
+</select>
+
+ <select id="getListWith_meetmatchpersonnelmanage_by_meetmatchmanage_seq" resultMap="meetmatchmanageMap">
+    
+    <![CDATA[
+			select
+			meetmatchmanage.meetmatchmanage_seq,
+			meetmatchmanage.meetmatchmanage_eventid,
+			meetmatchmanage.meetmatchmanage_eventtitle,
+			meetmatchmanage.meetmatchmanage_eventcontent,
+			meetmatchmanage.meetmatchmanage_eventregdate,
+			meetmatchmanage.meetmatchmanage_eventupdatedate,
+			meetmatchmanage.meetmatchmanage_eventstartdate,
+			meetmatchmanage.meetmatchmanage_eventenddate,
+			meetmatchmanage.meetmatchmanage_eventreleasedate,
+			meetmatchmanage.meetmatchmanage_eventendflag,
+			
+			meetmatchpersonnelmanage.meetmatchpersonnelmanage_seq,
+			meetmatchpersonnelmanage.meetmatchpersonnelmanage_personnel,
+			meetmatchpersonnelmanage.meetmatchmanage_seq
+			
+			from
+			meetmatchmanage
+			left join meetmatchpersonnelmanage 
+			on meetmatchmanage.meetmatchmanage_seq = meetmatchpersonnelmanage.meetmatchmanage_seq
+			where meetmatchmanage.meetmatchmanage_seq = #{meetmatchmanage_seq}
+	]]>
+
+
+</select>
+
+<select id="get_by_meetmatchmanage_seq_of_meetmatchteam" resultType="org.wesejong.domain.MeetMatchManageVO">
+<![CDATA[
+select * from meetmatchmanage where meetmatchmanage_seq = #{meetmatchmanage_seq}
+]]>
+</select>
+
+<insert id="insert">
+	insert into meetmatchmanage 
+	
+	(meetmatchmanage_eventid,
+	meetmatchmanage_eventtitle, 
+	meetmatchmanage_eventcontent, 
+	meetmatchmanage_eventstartdate, 
+	meetmatchmanage_eventenddate,
+	meetmatchmanage_eventreleasedate, 
+	meetmatchmanage_eventendflag)
+	
+	values 
+	(#{meetmatchmanage_eventid},
+	#{meetmatchmanage_eventtitle}, 
+	#{meetmatchmanage_eventcontent}, 
+	#{meetmatchmanage_eventstartdate}, 
+	#{meetmatchmanage_eventenddate},
+	#{meetmatchmanage_eventreleasedate},
+	#{meetmatchmanage_eventendflag})
+</insert>
+
+<insert id="insertSelectKey">
+	<selectKey keyProperty="meetmatchmanage_seq" order="BEFORE" resultType="long">
+		select max(meetmatchmanage_seq) from meetmatchmanage
+	</selectKey>
+	insert into meetmatchmanage 
+	
+	(meetmatchmanage_seq, 
+	meetmatchmanage_eventid,
+	meetmatchmanage_eventtitle, 
+	meetmatchmanage_eventcontent, 
+	meetmatchmanage_eventstartdate, 
+	meetmatchmanage_eventenddate, 
+	meetmatchmanage_eventreleasedate,
+	meetmatchmanage_eventendflag)
+	
+	values 
+	(#{meetmatchmanage_seq}+1, 
+	#{meetmatchmanage_eventid},
+	#{meetmatchmanage_eventtitle}, 
+	#{meetmatchmanage_eventcontent}, 
+	#{meetmatchmanage_eventstartdate}, 
+	#{meetmatchmanage_eventenddate},
+	#{meetmatchmanage_eventreleasedate},
+	#{meetmatchmanage_eventendflag})
+</insert>
+
+<select id="read" resultMap="meetmatchmanageMap">
+			select
+			meetmatchmanage.meetmatchmanage_seq,
+			meetmatchmanage.meetmatchmanage_eventid,
+			meetmatchmanage.meetmatchmanage_eventtitle,
+			meetmatchmanage.meetmatchmanage_eventcontent,
+			meetmatchmanage.meetmatchmanage_eventregdate,
+			meetmatchmanage.meetmatchmanage_eventupdatedate,
+			meetmatchmanage.meetmatchmanage_eventstartdate,
+			meetmatchmanage.meetmatchmanage_eventenddate,
+			meetmatchmanage.meetmatchmanage_eventreleasedate,
+			meetmatchmanage.meetmatchmanage_eventendflag,
+			
+			meetmatchpersonnelmanage.meetmatchpersonnelmanage_seq,
+			meetmatchpersonnelmanage.meetmatchpersonnelmanage_personnel,
+			meetmatchpersonnelmanage.meetmatchmanage_seq
+			
+			from
+			meetmatchmanage
+			left join meetmatchpersonnelmanage on meetmatchmanage.meetmatchmanage_seq = meetmatchpersonnelmanage.meetmatchmanage_seq
+			where meetmatchmanage.meetmatchmanage_seq = #{meetmatchmanage_seq}
+</select>
+
+<delete id="delete">
+	delete from meetmatchmanage where meetmatchmanage_seq = #{meetmatchmanage_seq}
+</delete>
+
+<update id="update">
+	update meetmatchmanage
+	set meetmatchmanage_eventid = #{meetmatchmanage_eventid},
+	meetmatchmanage_eventtitle = #{meetmatchmanage_eventtitle},
+	meetmatchmanage_eventcontent = #{meetmatchmanage_eventcontent},
+	meetmatchmanage_eventupdatedate = now(),
+	meetmatchmanage_eventstartdate = #{meetmatchmanage_eventstartdate},
+	meetmatchmanage_eventenddate = #{meetmatchmanage_eventenddate},
+	meetmatchmanage_eventreleasedate = #{meetmatchmanage_eventreleasedate},
+	meetmatchmanage_eventendflag = #{meetmatchmanage_eventendflag}
+	
+	where meetmatchmanage_seq = #{meetmatchmanage_seq}
+</update>
+
+<select id="Max_meetmatchmanage_seq" resultType="Long">
+	select max(meetmatchmanage_seq) from meetmatchmanage
+</select>
+
+</mapper>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.wesejong.mapper.ChatRoomJoinMapper">
+
+<select id="getList" resultType="org.wesejong.domain.ChatRoomJoinVO">
+<![CDATA[
+select * from chatroomjoin where chatroomjoin_seq > 0
+]]>
+</select>
+
+<select id="getList_by_mem_seq" resultType="org.wesejong.domain.ChatRoomJoinVO">
+<![CDATA[
+select * from chatroomjoin where chatroomjoin_seq > 0 and mem_seq=#{mem_seq}
+]]>
+</select>
+
+<insert id="insert">
+    insert into chatroomjoin (chatroom_seq, mem_seq)
+    values (#{chatroom_seq}, #{mem_seq})
+</insert>
+
+<insert id="insertSelectKey">
+	<selectKey keyProperty="chatroomjoin_seq" order="BEFORE" resultType="long">
+		select max(chatroomjoin_seq) from chatroomjoin
+	</selectKey>
+	insert into chatroomjoin (chatroomjoin_seq, chatroom_seq, mem_seq)
+	values (#{chatroomjoin_seq}+1, #{chatroom_seq}, #{mem_seq})
+</insert>
+
+<select id="read" resultType="org.wesejong.domain.ChatRoomJoinVO">
+	select * from chatroomjoin where chatroomjoin_seq = #{chatroomjoin_seq}
+</select>
+
+<delete id="delete">
+	delete from chatroomjoin where chatroomjoin_seq = #{chatroomjoin_seq}
+</delete>
+
+<delete id="delete_by_chatroom_seq_and_mem_seq">
+	delete from chatroomjoin where chatroom_seq = #{chatroom_seq} and mem_seq = #{mem_seq}
+</delete>
+
+<update id="update">
+	update chatroomjoin
+	set chatroom_seq = #{chatroom_seq},
+	mem_seq=#{mem_seq}
+	where chatroomjoin_seq=#{chatroomjoin_seq}
+</update>
+
+<select id="getExists_by_chatroom_seq_and_mem_Seq" resultType="int">
+	select EXISTS
+		(select * from chatroomjoin where chatroom_seq = #{chatroom_seq} and mem_seq = #{mem_seq})
+	as EXISTENCE	
+</select>
+
+<select id="getCount_by_chatroom_seq" resultType="Long">
+	select count(*) from chatroomjoin where chatroom_seq = #{chatroom_seq};
+</select>
+
+
+
+</mapper>

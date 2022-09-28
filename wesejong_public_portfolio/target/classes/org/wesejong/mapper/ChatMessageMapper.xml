@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.wesejong.mapper.ChatMessageMapper">
+
+<select id="getList" resultType="org.wesejong.domain.ChatMessageVO">
+<![CDATA[
+select * from chatmessage where chatmessage_seq > 0
+]]>
+</select>
+
+<select id="getChatMessageVOList" resultType="org.wesejong.domain.ChatMessageVO">
+<![CDATA[
+select * from chatmessage where chatroom_seq = #{chatroom_seq} limit 0,30
+]]>
+</select>
+
+<select id="getChatMessageVOList_limit_0_30" resultType="org.wesejong.domain.ChatMessageVO">
+<![CDATA[
+select * from ( select * from chatmessage where chatroom_seq = #{chatroom_seq} order by chatmessage_seq desc limit 0,30 ) a order by chatmessage_seq asc;
+]]>
+</select>
+
+<select id="getChatRoom_seq_by_chatroom_uuid" resultType="org.wesejong.domain.ChatRoomVO">
+<![CDATA[
+select * from chatroom where chatroom_uuid = #{chatroom_uuid}
+]]>
+</select>
+
+<insert id="insert">
+    insert into chatmessage (mem_seq, chatroom_seq, chatmessage)
+    values (#{mem_seq}, #{chatroom_seq}, #{chatmessage})
+</insert>
+
+<insert id="insertSelectKey">
+	<selectKey keyProperty="chatmessage_seq" order="BEFORE" resultType="long">
+		select max(chatmessage_seq) from chatmessage
+	</selectKey>
+	insert into chatmessage (chatmessage_seq, mem_seq, chatroom_seq, chatmessage)
+	values (#{chatmessage_seq}+1, #{mem_seq}, #{chatroom_seq}, #{chatmessage})
+</insert>
+
+<select id="read" resultType="org.wesejong.domain.ChatMessageVO">
+	select * from chatmessage where chatmessage_seq = #{chatmessage_seq}
+</select>
+
+<delete id="delete">
+	delete from chatmessage where chatroom_seq = #{chatroom_seq}
+</delete>
+
+<delete id="delete_by_chatroomvo">
+	delete from chatmessage where chatroom_seq = #{chatroom_seq}
+</delete>
+
+<!-- <update id="update">
+	update chatroom
+	set chatroom_url = #{chatroom_url},
+	chatroom_name=#{chatroom_name}
+	where chatroom_seq=#{chatroom_seq}
+</update> -->
+
+</mapper>

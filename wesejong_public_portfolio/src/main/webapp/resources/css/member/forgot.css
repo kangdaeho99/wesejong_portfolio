@@ -1,0 +1,54 @@
+#forgot header a{
+  text-decoration: none;color:black;font-family: 돋움;opacity: 0.7;
+}
+#forgot header h1{
+  font-size: 50px;text-align: center;
+}
+#forgot{
+  width:500px;margin:10px;
+}
+.select_lost ul{list-style: none; margin-left: -10px;}
+.select_lost li{float:left; background-color: #c3200e; padding:10px; width:200px; color:white; border-radius: 15px;text-align: center;margin-right: 10px;}
+.select_lost li:nth-child(2){
+  background-color: white;color:#c3200e;border:1px solid gray;
+}
+.select_lost li:hover{
+
+  }
+  .forgot .find_pw{
+    display: none;
+  }
+.forgot {
+margin-top:100px;border:1px solid #c3200e;z-index: 2;background-color: white;padding:20px;
+}
+.forgot h1{font-weight: lighter;}
+.forgot .choice{
+  list-style: none;
+}
+.forgot .choice li{
+  float:left;padding:10px; margin:5px;background-color: #888888;color:white;
+}
+.forgot input{
+    width:410px;padding:10px;border: 1px solid #888888;outline: none;margin:10px;
+}
+.forgot button{
+  width:450px;background-color: #c3200e; color:white;padding:10px;border: none;
+}
+.forgot #email_txt,.forgot #timer{
+  color:#c3002e;font-size: 12px;margin-left: 10px;
+}
+.forgot #cor_mem_email,.forgot .email_cert_btn{display: none;}
+.forgot .pw_input{
+  display: none;
+}
+.forgot .pw_input p {
+  color:#c3002e;font-size: 10px;margin-left: 10px;margin-top:-5px;
+
+}
+  @media (max-width:768px)and (min-width:320px){
+    #forgot{width:95%;}
+    .select_lost li{width:40%; padding:10px 5px;}
+    .forgot {padding:5%;}
+    .forgot input{width:90%;margin:10px auto;}
+    .forgot button{width:95%;}
+  }

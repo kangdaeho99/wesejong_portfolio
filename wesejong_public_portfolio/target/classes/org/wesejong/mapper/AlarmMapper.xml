@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.wesejong.mapper.AlarmMapper">
+
+<select id="getList" resultType="org.wesejong.domain.AlarmVO">
+<![CDATA[
+select * from alarm where alarm_seq > 0
+]]>
+</select>
+
+<select id="getList_by_mem_seq" resultType="org.wesejong.domain.AlarmVO">
+<![CDATA[
+select * from alarm where alarm_seq > 0 and mem_seq = #{mem_seq} order by alarm_seq desc
+]]>
+</select>
+
+<insert id="insert">
+    insert into alarm (alarm_title, alarm_writer, alalarm_content,  alarm_type, mem_seq)
+    values (#{alarm_title}, #{alarm_writer}, #{alarm_content},  #{alarm_type}, #{mem_seq})
+</insert>
+
+<insert id="insertSelectKey">
+	<selectKey keyProperty="alarm_seq" order="BEFORE" resultType="long">
+		select max(alarm_seq) from alarm
+	</selectKey>
+	insert into alarm (alarm_seq, alarm_title, alarm_writer, alarm_content,  alarm_type, mem_seq)
+	values (#{alarm_seq}+1, #{alarm_title}, #{alarm_writer}, #{alarm_content},  #{alarm_type}, #{mem_seq})
+</insert>
+
+<select id="read" resultType="org.wesejong.domain.AlarmVO">
+	select * from alarm where alarm_seq = #{alarm_seq}
+</select>
+
+<delete id="delete">
+	delete from alarm where alarm_seq = #{alarm_seq}
+</delete>
+
+<update id="update">
+	update alarm
+	set alarm_title=#{alarm_title},
+	alarm_writer=#{alarm_writer},
+	alarm_content=#{alarm_content},
+	alarm_type=#{alarm_type},
+	alarm_readcheck=#{alarm_readcheck}
+	where alarm_seq=#{alarm_seq}
+</update>
+
+<select id="getCount_by_mem_seq_and_alarm_readcheck" resultType="int">
+	<![CDATA[
+		select 
+			count(*)
+		from
+			alarm
+		where mem_seq = #{mem_seq} and alarm_readcheck = #{alarm_readcheck}
+	]]>
+</select>
+
+<update id="update_alarm_readcheck_by_mem_seq">
+	update alarm
+	set alarm_readcheck = #{alarm_readcheck}
+	where mem_seq = #{mem_seq}
+</update>
+
+
+</mapper>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.wesejong.mapper.MeetMatchPersonnelManageMapper">
+
+
+<select id="getList" resultType="org.wesejong.domain.MeetMatchPersonnelManageVO">
+<![CDATA[
+select * from meetmatchpersonnelmanage where meetmatchpersonnelmanage_seq > 0
+]]>
+</select>
+
+<insert id="insert">
+	insert into meetmatchpersonnelmanage 
+	
+	(meetmatchpersonnelmanage_personnel,
+	meetmatchmanage_seq)
+	
+	values 
+	(#{meetmatchpersonnelmanage_personnel},
+	#{meetmatchmanage_seq})
+</insert>
+
+<insert id="insertSelectKey">
+	<selectKey keyProperty="meetmatchpersonnelmanage_seq" order="BEFORE" resultType="long">
+		select max(meetmatchpersonnelmanage_seq) from meetmatchpersonnelmanage
+	</selectKey>
+	insert into meetmatchpersonnelmanage 
+	
+	(meetmatchpersonnelmanage_seq, 
+	meetmatchpersonnelmanage_personnel,
+	meetmatchmanage_seq)
+	
+	values 
+	(#{meetmatchpersonnelmanage_seq}+1, 
+	#{meetmatchpersonnelmanage_personnel},
+	#{meetmatchmanage_seq})
+</insert>
+
+<select id="read"  resultType="org.wesejong.domain.MeetMatchPersonnelManageVO">
+	select * from meetmatchpersonnelmanage where meetmatchpersonnelmanage_seq = #{meetmatchpersonnelmanage_seq}
+</select>
+
+<delete id="delete">
+	delete from meetmatchpersonnelmanage where meetmatchpersonnelmanage_seq = #{meetmatchpersonnelmanage_seq}
+</delete>
+
+<update id="update">
+	update meetmatchpersonnelmanage
+	set meetmatchpersonnelmanage_personnel = #{meetmatchpersonnelmanage_personnel},
+	meetmatchmanage_seq = #{meetmatchmanage_seq}
+	
+	where meetmatchpersonnelmanage_seq = #{meetmatchpersonnelmanage_seq}
+</update>
+
+
+</mapper>

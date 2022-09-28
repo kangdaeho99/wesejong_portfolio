@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.wesejong.mapper.BoardLikeMapper">
+
+<select id="getList" resultType="org.wesejong.domain.BoardLikeVO">
+<![CDATA[
+select * from boardlike where blno > 0 and bno = #{bno}
+]]>
+</select>
+
+<insert id="insert">
+    insert into boardlike (bno, mem_seq, likecheck)
+    values (#{bno}, #{mem_seq}, #{likecheck})
+</insert>
+
+<insert id="insertSelectKey">
+	<selectKey keyProperty="blno" order="BEFORE" resultType="long">
+		select max(blno) from boardlike
+	</selectKey>
+	insert into boardlike (blno, bno, mem_seq, likecheck)
+	values (#{blno}+1, #{bno}, #{mem_seq}, #{likecheck})
+</insert>
+
+<select id="read" resultType="org.wesejong.domain.BoardLikeVO">
+	select * from boardlike where blno = #{blno}
+</select>
+
+<select id="read_by_bno_and_mem_seq" resultType="org.wesejong.domain.BoardLikeVO">
+	select * from boardlike where bno = #{bno} and mem_seq = #{mem_seq}
+</select>
+
+<delete id="delete">
+	delete from boardlike where blno = #{blno}
+</delete>
+
+<delete id="delete_by_bno_and_mem_seq">
+	delete from boardlike where bno = #{bno} and mem_seq = #{mem_seq}
+</delete>
+
+<update id="update">
+	update boardlike
+	set bno = #{bno},
+	mem_seq=#{mem_seq},
+	likecheck=#{likecheck}
+	where blno=#{blno}
+</update>
+
+<select id="getExistsBoardLikeColumn" resultType="int">
+	select EXISTS
+		(select * from boardlike where bno = #{bno} and mem_seq=#{mem_seq})
+	as EXISTENCE
+</select>
+
+<select id="getTotalBoardLikeCount_of_post_by_bno" resultType="long">
+<![CDATA[
+	select
+		count(*)
+	from 
+		boardlike 
+	where bno = #{bno}
+]]>
+</select>
+
+</mapper>

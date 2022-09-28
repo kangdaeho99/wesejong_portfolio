@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.wesejong.mapper.BoardManageMapper">
+
+<select id="getList" resultType="org.wesejong.domain.BoardManageVO">
+<![CDATA[
+select * from boardmanage where mbno > 0
+]]>
+</select>
+
+<select id="getList_by_board_order" resultType="org.wesejong.domain.BoardManageVO">
+<![CDATA[
+select * from boardmanage where mbno > 0 and board_order > 0 order by board_order desc;
+]]>
+</select>
+
+<insert id="insert">
+    insert into boardmanage (board_id, board_name, board_type, board_url, board_desc, board_order)
+    values (#{board_id}, #{board_name}, #{board_type}, #{board_url}, #{board_desc}, #{board_order})
+</insert>
+
+<insert id="insertSelectKey">
+	<selectKey keyProperty="mbno" order="BEFORE" resultType="long">
+		select max(mbno) from boardmanage
+	</selectKey>
+	insert into boardmanage (mbno, board_id, board_name, board_type, board_url, board_desc, board_order)
+	values (#{mbno}+1, #{board_id}, #{board_name}, #{board_type}, #{board_url}, #{board_desc}, board_order)
+</insert>
+
+<select id="read" resultType="org.wesejong.domain.BoardManageVO">
+	select * from boardmanage where mbno = #{mbno}
+</select>
+
+<delete id="delete">
+	delete from boardmanage where mbno = #{mbno}
+</delete>
+
+<update id="update">
+	update boardmanage
+	set board_id = #{board_id},
+	board_name=#{board_name},
+	board_type=#{board_type},
+	board_url=#{board_url},
+	board_desc=#{board_desc},
+	board_order=#{board_order}
+	where mbno=#{mbno}
+</update>
+
+<select id="getTableList" resultType="String">
+	show tables
+</select>
+
+<select id="descTable" resultType="org.wesejong.domain.TableVO">
+	desc ${table}
+</select>
+
+<select id="read_by_board_id" resultType="org.wesejong.domain.BoardManageVO">
+	select * from boardmanage where board_id = #{board_id}
+</select>
+
+</mapper>

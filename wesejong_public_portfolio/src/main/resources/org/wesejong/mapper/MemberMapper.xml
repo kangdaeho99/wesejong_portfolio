@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.wesejong.mapper.MemberMapper">
+
+	<resultMap type="org.wesejong.domain.MemberVO" id="memberMap">
+		<id property="mem_seq" column="mem_seq"/>
+		<result property="mem_seq" column="mem_seq"/>
+		<result property="mem_userid" column="mem_userid"/>
+		<result property="mem_password" column="mem_password"/>
+		<result property="mem_nickname" column="mem_nickname"/>
+		<result property="mem_email" column="mem_email"/>
+		<result property="mem_email_certified" column="mem_email_certified"/>
+		<result property="mem_studentid" column="mem_studentid"/>
+		<result property="mem_regdate" column="mem_regdate"/>
+		<result property="mem_updateDate" column="mem_updateDate"/>
+		<result property="mem_enabled" column="mem_enabled"/>
+		<collection property="mem_authorityList" resultMap="authMap">
+		</collection>
+	</resultMap>
+
+	<resultMap type="org.wesejong.domain.AuthorityVO" id="authMap">
+		<result property="mem_seq" column="mem_seq"/>
+		<result property="mem_userid" column="mem_userid"/>
+		<result property="mem_auth" column="mem_auth"/>
+	</resultMap>
+	
+	<select id="read" resultMap="memberMap">
+	
+	     select
+	     member.mem_seq,
+	     member.mem_userid,
+	     member.mem_password,
+	     member.mem_nickname,
+	     member.mem_email,
+	     member.mem_email_certified,
+	     member.mem_studentid,
+	     member.mem_regdate,
+	     member.mem_updateDate,
+	     member.mem_enabled,
+	     member_Authority.mem_auth
+	     from
+	     member
+	     left join member_Authority 
+	     on member.mem_seq = member_Authority.mem_seq
+	     where member.mem_userid = #{mem_userid}
+	</select>
+	
+	<select id="getmemberList" resultMap="memberMap">
+	     select
+	     member.mem_seq,
+	     member.mem_userid,
+	     member.mem_password,
+	     member.mem_nickname,
+	     member.mem_email,
+	     member.mem_email_certified,
+	     member.mem_studentid,
+	     member.mem_regdate,
+	     member.mem_updateDate,
+	     member.mem_enabled,
+	     member_Authority.mem_auth
+	     from
+	     member
+	     left join member_Authority on member.mem_seq = member_Authority.mem_seq		
+	</select>
+
+<!-- 회원가입시 mem_seq을 통해 알림을 보내기 위해 한번 써봤는데 join으로 그냥 처리했습니다. -->
+<!-- 	<insert id="insertMember">
+		<selectKey keyProperty="mem_seq" order="BEFORE" resultType="long">
+			select max(mem_seq) from member
+		</selectKey>
+		insert into member (mem_seq, mem_userid,mem_password,mem_nickname,mem_studentid,mem_email)
+		values (#{mem_seq}+1, #{mem_userid},#{mem_password},#{mem_nickname},#{mem_studentid},#{mem_email})
+	</insert> -->
+
+ 	
+	<insert id="insertMember">
+		insert into member (mem_userid,mem_password,mem_nickname,mem_studentid,mem_email)
+		values (#{mem_userid},#{mem_password},#{mem_nickname},#{mem_studentid},#{mem_email})
+	</insert>
+	
+	<insert id="insertMember_Authority">
+		insert into member_Authority(mem_seq, mem_userid,mem_auth)
+		values (#{mem_seq},#{mem_userid},"ROLE_MEMBER")
+	</insert>
+	
+	<select id="get_by_mem_userid" resultType="org.wesejong.domain.MemberVO">
+		<![CDATA[
+		select * from member 
+		where mem_userid = #{mem_userid}
+		]]>
+	</select>
+	
+	<select id="get_by_mem_seq" resultType="org.wesejong.domain.MemberVO">
+		<![CDATA[
+		select * from member 
+		where mem_seq = #{mem_seq}
+		]]>
+	</select>
+	
+	<select id="get_by_mem_email" resultType="org.wesejong.domain.MemberVO">
+		<![CDATA[
+		select * from member 
+		where mem_email = #{mem_email}
+		]]>
+	</select>	
+	
+	
+	<select id="mem_userid_duplication_check" resultType="int">
+		<![CDATA[
+			SELECT count(*) FROM member
+			WHERE mem_userid = #{mem_userid}
+		]]>
+	</select>
+	
+	<select id="mem_email_duplication_check" resultType="int">
+		<![CDATA[
+			SELECT count(*) FROM member
+			WHERE mem_email = #{mem_email}
+		]]>		
+	</select>
+
+	<select id="mem_nickname_duplication_check" resultType="int">
+		<![CDATA[
+			SELECT count(*) FROM member
+			WHERE mem_nickname = #{mem_nickname}
+		]]>		
+	</select>
+	
+	<select id="countwholestudentid" resultType="int">
+		<![CDATA[
+			SELECT count(*) FROM member
+		]]>	
+	</select>
+	
+	<select id="countstudentid" resultType="int">
+		<![CDATA[
+			SELECT count(*) FROM member
+			WHERE mem_studentid=#{mem_studentid}
+		]]>	
+	</select>
+	
+	<update id="update_mem_nickname">
+		update member
+		set mem_nickname = #{mem_nickname},
+		mem_updateDate = now()
+		where mem_seq = #{mem_seq}
+	</update>
+	
+	<update id="update_mem_nickname_mem_password">
+		update member
+		set mem_nickname = #{mem_nickname},
+		mem_password=#{mem_password},
+		mem_updateDate = now()
+		where mem_seq = #{mem_seq}
+	</update>
+	
+	<update id="update_mem_password">
+		update member
+		set mem_password = #{mem_password},
+		mem_updateDate = now()
+		where mem_seq = #{mem_seq}
+	</update>
+	
+	<delete id="delete_by_mem_seq">
+		delete from member where mem_seq = #{mem_seq}
+	</delete>
+	
+</mapper>

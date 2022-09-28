@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.wesejong.mapper.BoardAttachImageMapper">
+
+<insert id="insert">
+    insert into boardattachimage (boardattachimage_uploadpath, boardattachimage_uuid, bno)
+    values (#{boardattachimage_uploadpath}, #{boardattachimage_uuid}, #{bno})
+</insert>
+
+<insert id="insertSelectKey">
+	<selectKey keyProperty="boardattachimage_seq" order="BEFORE" resultType="long">
+		select max(boardattachimage_seq) from boardattachimage
+	</selectKey>
+	insert into boardattachimage (boardattachimage_seq, boardattachimage_uploadpath, boardattachimage_uuid, bno)
+	values (#{boardattachimage_seq}+1, #{boardattachimage_uploadpath}, #{boardattachimage_uuid}, #{bno})
+</insert>
+
+<insert id="insertSelectKey_with_boardmanage">
+	<selectKey keyProperty="boardattachimage_seq" order="BEFORE" resultType="long">
+		select max(boardattachimage_seq) from boardattachimage
+	</selectKey>
+	insert into boardattachimage (boardattachimage_seq, boardattachimage_uploadpath, boardattachimage_uuid, bno)
+	values (#{boardattachimage_seq}+1, #{boardattachimagevo.boardattachimage_uploadpath}, #{boardattachimagevo.boardattachimage_uuid}, #{boardvo.bno})
+</insert>
+
+
+<delete id="delete">
+	delete from boardattachimage where bno = #{bno}
+</delete>
+
+<delete id="delete_by_bno">
+	delete from boardattachimage where bno = #{bno}
+</delete>
+
+<select id="findByBno" resultType="org.wesejong.domain.BoardAttachImageVO">
+	select * from boardattachimage where bno = #{bno}
+</select>
+
+
+</mapper>

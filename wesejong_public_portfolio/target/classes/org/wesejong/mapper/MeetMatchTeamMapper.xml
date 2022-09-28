@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.wesejong.mapper.MeetMatchTeamMapper">
+
+<select id="getList" resultType="org.wesejong.domain.MeetMatchTeamVO">
+<![CDATA[
+select * from meetmatchteam where meetmatchteam_seq > 0
+]]>
+</select>
+
+<select id="getList_by_meetmatchmanage_seq_and_meetmatchpersonnelmanage_personnel" resultType="org.wesejong.domain.MeetMatchTeamVO">
+<![CDATA[
+select * from meetmatchteam where meetmatchmanage_seq = #{meetmatchmanage_seq} and meetmatchpersonnelmanage_personnel = #{meetmatchpersonnelmanage_personnel}
+]]>
+</select>
+
+<select id="getList_by_meetmatchmanage_seq_and_meetmatchpersonnelmanage_personnel_and_meetmatchteam_matchedflag_and_meetmatchteam_gender" resultType="org.wesejong.domain.MeetMatchTeamVO">
+<![CDATA[
+select * from meetmatchteam where meetmatchmanage_seq = #{meetmatchmanage_seq} and meetmatchpersonnelmanage_personnel = #{meetmatchpersonnelmanage_personnel} and meetmatchteam_matchedflag = #{meetmatchteam_matchedflag} and meetmatchteam_gender = #{meetmatchteam_gender}
+]]>
+</select>
+
+<select id="getList_by_meetmatchmanage_seq_and_meetmatchteam_matchedflag" resultType="org.wesejong.domain.MeetMatchTeamVO">
+<![CDATA[
+select * from meetmatchteam where meetmatchmanage_seq = #{meetmatchmanage_seq} and meetmatchteam_matchedflag = #{meetmatchteam_matchedflag}
+]]>
+</select>
+
+<select id="getList_by_meetmatchmanage_seq_and_meetmatchteam_certified_and_meetmatchpersonnelmanage_personnel_and_meetmatchteam_gender" resultType="org.wesejong.domain.MeetMatchTeamVO">
+<![CDATA[
+select * from meetmatchteam where meetmatchmanage_seq = #{meetmatchmanage_seq} and meetmatchteam_certified = #{meetmatchteam_certified} and meetmatchpersonnelmanage_personnel = #{meetmatchpersonnelmanage_personnel} and meetmatchteam_gender = #{meetmatchteam_gender}
+]]>
+</select>
+
+<select id="get_by_meetmatchteam_seq_of_meetmatchteammate" resultType="org.wesejong.domain.MeetMatchTeamVO">
+<![CDATA[
+select * from meetmatchteam where meetmatchteam_seq = #{meetmatchteam_seq}
+]]>
+</select>
+
+<insert id="insert">
+    insert into meetmatchteam (meetmatchteam_gender, meetmatchmanage_seq, meetmatchpersonnelmanage_personnel, meetmatchteammate_certifiedcount)
+    values (#{meetmatchteam_gender}, #{meetmatchmanage_seq}, #{meetmatchpersonnelmanage_personnel}, #{meetmatchteammate_certifiedcount})
+</insert>
+
+<insert id="insertSelectKey">
+	<selectKey keyProperty="meetmatchteamvo.meetmatchteam_seq" order="BEFORE" resultType="long">
+		select max(meetmatchteam_seq) from meetmatchteam
+	</selectKey>
+	insert into meetmatchteam (meetmatchteam_seq, meetmatchteam_gender, meetmatchmanage_seq, meetmatchpersonnelmanage_personnel, meetmatchteammate_certifiedcount)
+	values (#{meetmatchteamvo.meetmatchteam_seq}+1, #{meetmatchteamvo.meetmatchteam_gender}, #{meetmatchteamvo.meetmatchmanage_seq}, #{meetmatchteamvo.meetmatchpersonnelmanage_personnel}, #{meetmatchteamvo.meetmatchteammate_certifiedcount})
+</insert>
+
+<select id="read" resultType="org.wesejong.domain.MeetMatchTeamVO">
+	select * from meetmatchteam where meetmatchteam_seq = #{meetmatchteam_seq}
+</select>
+
+<delete id="delete">
+	delete from meetmatchteam where meetmatchteam_seq = #{meetmatchteam_seq}
+</delete>
+
+<update id="update">
+	update meetmatchteam
+	set meetmatchteam_gender=#{meetmatchteam_gender},
+	meetmatchteam_certified=#{meetmatchteam_certified},
+	meetmatchteam_matchedflag=#{meetmatchteam_matchedflag},
+	meetmatchteam_matchedpartner=#{meetmatchteam_matchedpartner},
+	meetmatchmanage_seq = #{meetmatchmanage_seq},
+	meetmatchpersonnelmanage_personnel = #{meetmatchpersonnelmanage_personnel},
+	meetmatchteammate_certifiedcount = #{meetmatchteammate_certifiedcount}
+	where meetmatchteam_seq=#{meetmatchteam_seq}
+</update>
+
+<update id="update_meetmatchteam_certified">
+	update meetmatchteam
+	set meetmatchteam_certified=#{meetmatchteam_certified},
+	meetmatchteam_certifieddate = now()
+	where meetmatchteam_seq=#{meetmatchteam_seq}
+</update>
+
+<update id="update_meetmatchteam_matchedflag">
+	update meetmatchteam
+	set meetmatchteam_matchedflag=#{meetmatchteam_matchedflag}
+	where meetmatchteam_seq=#{meetmatchteam_seq}
+</update>
+
+<update id="update_meetmatchteam_matchedpartner">
+	update meetmatchteam
+	set meetmatchteam_matchedpartner=#{meetmatchteam_matchedpartner}
+	where meetmatchteam_seq=#{meetmatchteam_seq}
+</update>
+
+<update id="update_certified_count_by_meetmatchteam_seq">
+	update meetmatchteam
+	set meetmatchteammate_certifiedcount = #{meetmatchteammate_certifiedcount}
+	where meetmatchteam_seq=#{meetmatchteam_seq}
+</update>
+
+
+
+</mapper>
