@@ -10,6 +10,9 @@
 
 **깃허브소스코드 :** [https://github.com/kangdaeho99/wesejong_public_portfolio](https://github.com/kangdaeho99/wesejong_public_portfolio)
 
+
+https://user-images.githubusercontent.com/48047377/203891938-f5041601-00a9-46ae-8d10-4abb3c7c5ce4.png
+
 **프로젝트 설명** 
 
 - 세종대학교 학생들만이 사용할 수 있는 학생 커뮤니티 웹사이트입니다.
