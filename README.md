@@ -10,8 +10,10 @@
 
 **깃허브소스코드 :** [https://github.com/kangdaeho99/wesejong_public_portfolio](https://github.com/kangdaeho99/wesejong_public_portfolio)
 
+![[https://wesejong.cafe24.com](https://wesejong.cafe24.com/)](https://user-images.githubusercontent.com/48047377/203891938-f5041601-00a9-46ae-8d10-4abb3c7c5ce4.png)
 
-https://user-images.githubusercontent.com/48047377/203891938-f5041601-00a9-46ae-8d10-4abb3c7c5ce4.png
+[https://wesejong.cafe24.com](https://wesejong.cafe24.com/)
+<img width="80%"https://user-images.githubusercontent.com/48047377/203891938-f5041601-00a9-46ae-8d10-4abb3c7c5ce4.png
 
 **프로젝트 설명** 
 
