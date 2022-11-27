@@ -1,11 +1,8 @@
-### 🏫 **위세종(Wesju) , 세종대학교 커뮤니티사이트**
-
-
 ## 👩🏻‍💻 프로젝트 소개
 
 ---
 
-### 🏫 **위세종(Wesju) , 세종대학교 커뮤니티사이트**
+### 🏫 **위세종(Wesju) , 세종대학교 웹커뮤니티 사이트**
 
 **링크 : [https://wesejong.cafe24.com](https://wesejong.cafe24.com)     (Chrome 환경에서 접속)**
 
@@ -21,35 +18,18 @@
 
 **프로젝트 설명** 
 
-- 세종대학교 학생들만이 사용할 수 있는 학생 커뮤니티 웹사이트입니다.
+- 세종대학교 학생들이 이용할 수 있는 학생 커뮤니티 사이트입니다.
 
-개발 기간
+- 개발 기간 : 2021-08-01 ~ 2022-03-01 
 
----
+- 개발 인원 : 2명
 
-개발 환경
-
----
-
-개발 인원
-
----
-
-2021-08-01 ~ 2022-03-01 
-
----
-
-Spring Framework 4
-
----
-
-2명
-
----
+- <img src="https://img.shields.io/badge/spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white"> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> 
 
 **프로젝트 기획의도**
 
-- 세종대학교의 학생들이 만든 웹커뮤니티가 없는것이 아쉬워서 세종대학교의 웹커뮤니티를 만들고 활성화해보자는 마음에 만들었습니다. 또한, 코로나 시절 사람들을 만나기 힘든 점을 생각하여 학교미팅매칭서비스 또한 커뮤니티 안에 만들어보았습니다.
+- 세종대학교의 학생들만의 웹커뮤니티가 없는 점이 아쉬웠습니다. 학교의 특성을 잘 이해하고 있는 학생들이 제작한 커뮤니티가 학생들의 니즈를 만족시킬 수 있다고 생각하여 세종대 재학생들이 직접 웹커뮤니티를 만들어 보았습니다. 
+- COVID-19로 인해 오랜 사회적 거리두기로 지친 학생들과 친구들을 사귀지 못한 신입생들을 위해 비대면으로 학생들 간 친목을 다질 수 있는 학생 간 랜덤 매칭 서비스를 구현해 보았습니다.
 
 **개발목표**
 
@@ -71,7 +51,9 @@ Spring Framework 4
 
 - 구글에서 ‘wesejong’ 네이버에서 ‘wesejong’을 검색하면 접속가능합니다.
 - 에브리타임 홍보게시판, 세종대학교 갤러리에 홍보
-
+<details>
+<summary>관련 이미지 캡처</summary>
+<div markdown="1">       
 ![구글에서 ‘wesejong’을 검색한 그림](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d268b069-59cd-4504-8993-7afa3a7a2f9b/Untitled.png)
 
 구글에서 ‘wesejong’을 검색한 그림
@@ -99,6 +81,10 @@ Spring Framework 4
 ![세종대학교 갤러리 홍보글2](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8909fae0-b2c9-4cc5-a7d0-f04dd41f4deb/Untitled.png)
 
 세종대학교 갤러리 홍보글2
+
+</div>
+</details>
+
 
 **구현된기능**
 
