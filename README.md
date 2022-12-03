@@ -54,31 +54,31 @@
 <details>
 <summary>관련 이미지 캡처</summary>
 <div markdown="1">       
-![구글에서 ‘wesejong’을 검색한 그림](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d268b069-59cd-4504-8993-7afa3a7a2f9b/Untitled.png)
+![구글에서 ‘wesejong’을 검색한 그림](https://user-images.githubusercontent.com/48047377/204066102-9da07165-780b-4c7f-a554-907ebbfa7dfd.png)
 
 구글에서 ‘wesejong’을 검색한 그림
 
-![네이버에서 ‘wesejong’을 검색한 그림](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5e271e62-0d89-401b-a0fe-9dfa6bf1113f/Untitled.png)
+![네이버에서 ‘wesejong’을 검색한 그림](https://user-images.githubusercontent.com/48047377/204066106-a17b1b7d-f7da-47fd-b52f-c32a2ec64b97.png)
 
 네이버에서 ‘wesejong’을 검색한 그림
 
-![에브리타임에 홍보글1](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0861ee94-d4b9-49cd-bfd9-7ddfd9bd1ed5/KakaoTalk_20220927_124955292_01.jpg)
+![에브리타임에 홍보글1](https://user-images.githubusercontent.com/48047377/204066109-9b1f1c9d-a468-4ead-b9d6-f4134e42996e.jpg)
 
 에브리타임에 홍보글1
 
-![에브리타임홍보글2](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c0a5aaa1-6a88-45d2-a454-14474066d8c9/KakaoTalk_20220927_125024347.jpg)
+![에브리타임홍보글2](https://user-images.githubusercontent.com/48047377/204066114-7d5f5934-a63c-4e16-b91d-0b0317635ab0.jpg)
 
 에브리타임홍보글2
 
-![에브리타임홍보글3](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c98c4f9f-8ab3-4215-a3ee-e377598b69b0/KakaoTalk_20220927_124955292.jpg)
+![에브리타임홍보글3](https://user-images.githubusercontent.com/48047377/204066117-b23ca6ee-b03f-4158-a7e5-c9fd026ace4c.jpg)
 
 에브리타임홍보글3
 
-![세종대학교 갤러리 홍보글1](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/396de74d-dae8-44d3-ba8c-5066fccf8006/Untitled.png)
+![세종대학교 갤러리 홍보글1](https://user-images.githubusercontent.com/48047377/204066118-b42fff6f-0a89-4416-ad3f-e114ee0557b9.png)
 
 세종대학교 갤러리 홍보글1
 
-![세종대학교 갤러리 홍보글2](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8909fae0-b2c9-4cc5-a7d0-f04dd41f4deb/Untitled.png)
+![세종대학교 갤러리 홍보글2](https://user-images.githubusercontent.com/48047377/204066120-b002c426-1004-45bf-ad86-0ede8efd722d.png)
 
 세종대학교 갤러리 홍보글2
 
@@ -139,11 +139,11 @@ PC화면
 
 로그인을 한상태로만 사이트에 접속이 가능하니 위의 테스트계정으로 접속바랍니다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3f4e62aa-7bb9-4c97-88ee-fd89825437af/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/48047377/204066126-2b4bc0f4-2cb2-44e2-96ae-3d17cf44569b.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bb13addd-1ddd-4a54-95c9-84265dcff289/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/48047377/204066128-e620e1d5-9a49-4c2a-8fe7-895ec9f82d78.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/660d93c4-7627-4482-8004-27081bb6287c/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/48047377/204066130-67620195-160c-4609-af6f-a1242d98aedf.png)
 
 ![메인페이지 [https://wesejong.cafe24.com/](https://wesejong.cafe24.com/)](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c64620bc-45bd-4142-8394-815723f29659/Untitled.png)
 
@@ -159,9 +159,9 @@ spring security를 활용하여 관리자, 멤버별로 접근할 수 있는 페
 
 ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9e1387ef-cd43-4eab-a1ba-299e95577da0/Untitled.png)
 
-![위세종 로그인화면 [https://wesejong.cafe24.com/member/login](https://wesejong.cafe24.com/member/login)](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/28476d4c-4185-40f1-a569-5ed6751b7ff5/Untitled.png)
+![위세종 로그인화면 [https://wesejong.cafe24.com/member/login](https://wesejong.cafe24.com/member/login)](https://user-images.githubusercontent.com/48047377/204066138-e311cbda-5433-4ccc-b133-242b577b6bbc.png)
 
-위세종 로그인화면 [https://wesejong.cafe24.com/member/login](https://wesejong.cafe24.com/member/login)
+위세종 로그인화면 [https://wesejong.cafe24.com/member/login](https://user-images.githubusercontent.com/48047377/204066141-3134dbc0-1f06-454e-a82d-3dcebfdd6d1b.png)
 
 ### 회원가입화면입니다.
 
