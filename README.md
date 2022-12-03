@@ -283,23 +283,23 @@ Spring Websocket With Stomp 채팅화면 , test1과 test2가 서로 채팅하는
 
 ![Untitled](https://user-images.githubusercontent.com/48047377/204066182-b4d1a134-e97c-48de-bd4c-47404a05a636.png)
 
+![Untitled](https://user-images.githubusercontent.com/48047377/204066185-3fc66e59-f812-45fd-aea6-fd5709c9e34c.png)
+
 ![Untitled](https://user-images.githubusercontent.com/48047377/204066186-538348e5-190c-4faa-a727-053f7f3485f2.png)
 
-![Untitled](https://user-images.githubusercontent.com/48047377/204066189-72e6f968-5ba1-43bb-9c04-90fb4679d9b7.png)
-
-![게시판 상세보기 화면1 [https://wesejong.cafe24.com/board/get?bno=6](https://wesejong.cafe24.com/board/get?bno=6)](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/72cd81ae-53e5-410d-9db1-25f0008066d8/Untitled.png)
+![게시판 상세보기 화면1 [https://wesejong.cafe24.com/board/get?bno=6](https://wesejong.cafe24.com/board/get?bno=6)](https://user-images.githubusercontent.com/48047377/204066189-72e6f968-5ba1-43bb-9c04-90fb4679d9b7.png)
 
 게시판 상세보기 화면1 [https://wesejong.cafe24.com/board/get?bno=6](https://wesejong.cafe24.com/board/get?bno=6)
 
 ### <자유게시판 - 가입인사하는 상세글입니다.>
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/24136e07-794b-4c64-ac21-97a28c3c24f1/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/48047377/204066194-193d866c-ee04-406a-bd54-40e4883cb97f.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5e7544d4-71ea-44a9-a630-8e777153077a/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/48047377/204066197-15fbc0f9-f118-469e-972d-b1b3110cf2f5.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/052b52b9-0169-4172-83d5-62da1f2f39de/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/48047377/204066199-a4188a86-ab11-40ea-a639-8da74f941231.png)
 
-![게시판 상세보기 화면2 [https://wesejong.cafe24.com/board/get?bno=8&board_id=103&pageNum=1&amount=20#](https://wesejong.cafe24.com/board/get?bno=8&board_id=103&pageNum=1&amount=20#)](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4be3ec00-2b5f-47af-b6f4-86ec8f4632b2/Untitled.png)
+![게시판 상세보기 화면2 [https://wesejong.cafe24.com/board/get?bno=8&board_id=103&pageNum=1&amount=20#](https://wesejong.cafe24.com/board/get?bno=8&board_id=103&pageNum=1&amount=20#)](https://user-images.githubusercontent.com/48047377/204066201-06a84099-bd34-4bb2-9f42-cd2278abd7eb.png)
 
 게시판 상세보기 화면2 [https://wesejong.cafe24.com/board/get?bno=8&board_id=103&pageNum=1&amount=20#](https://wesejong.cafe24.com/board/get?bno=8&board_id=103&pageNum=1&amount=20#)
 
@@ -311,45 +311,45 @@ CKEDITOR YOUTUBE Plugin을 통해 퍼오기가 가능합니다.
 
 게시글 왼쪽상단에 게시판을 설정하여 원하는 게시판에 글을 작성할 수 있습니다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/38c93524-af40-4f78-a23f-a7c97b948bd1/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/48047377/204066207-64f81bf4-dad7-42b9-b99a-4ed524680c25.png)
 
-![게시글 등록화면](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3d33b2f2-6b37-4174-8227-9410593dfeeb/Untitled.png)
+![게시글 등록화면](https://user-images.githubusercontent.com/48047377/204066211-61e8140f-6f13-46cb-ab2e-55e397b7430b.png)
 
 게시글 등록화면
 
 ### 위의 작성한 글의 상세보기입니다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/288273dc-e33e-4c1d-9a1f-eea5de2b8dae/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/48047377/204066222-856d9048-19f6-4584-b16d-02e0eb3b6739.png)
 
-![게시글 상세화면](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/11892cee-53c3-4399-8c95-301714e43c6f/Untitled.png)
+![게시글 상세화면](https://user-images.githubusercontent.com/48047377/204066218-d3daec84-4308-424b-89e6-7a2d62cd5db3.png)
 
 게시글 상세화면
 
 ## **미팅매칭설명페이지입니다.**
 
-![미팅매칭 설명페이지1 [https://wesejong.cafe24.com/meetmatch/event/explanation](https://wesejong.cafe24.com/meetmatch/event/explanation)](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/efc95e56-2a6c-41af-82a5-c352b67a32e8/Untitled.png)
+![미팅매칭 설명페이지1 [https://wesejong.cafe24.com/meetmatch/event/explanation](https://wesejong.cafe24.com/meetmatch/event/explanation)](https://user-images.githubusercontent.com/48047377/204066231-ed92d324-a253-4b48-b5a0-1b883f0d02de.png)
 
 미팅매칭 설명페이지1 [https://wesejong.cafe24.com/meetmatch/event/explanation](https://wesejong.cafe24.com/meetmatch/event/explanation)
 
-![미팅매칭 설명페이지2 [https://wesejong.cafe24.com/meetmatch/event/explanation](https://wesejong.cafe24.com/meetmatch/event/explanation)](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4cf907f3-9695-4aaf-ad23-282b0b5ba8fb/Untitled.png)
+![미팅매칭 설명페이지2 [https://wesejong.cafe24.com/meetmatch/event/explanation](https://wesejong.cafe24.com/meetmatch/event/explanation)](https://user-images.githubusercontent.com/48047377/204066234-2d2ea216-b84f-4712-a673-274ec87bbeb3.png)
 
 미팅매칭 설명페이지2 [https://wesejong.cafe24.com/meetmatch/event/explanation](https://wesejong.cafe24.com/meetmatch/event/explanation)
 
-![미팅매칭 설명페이지3 [https://wesejong.cafe24.com/meetmatch/event/explanation](https://wesejong.cafe24.com/meetmatch/event/explanation)](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/23f0721b-27e1-45b9-9598-a86a186fcf91/Untitled.png)
+![미팅매칭 설명페이지3 [https://wesejong.cafe24.com/meetmatch/event/explanation](https://wesejong.cafe24.com/meetmatch/event/explanation)](https://user-images.githubusercontent.com/48047377/204066235-76201c7c-2cb5-4f19-abfd-9f1349388f0f.png)
 
 미팅매칭 설명페이지3 [https://wesejong.cafe24.com/meetmatch/event/explanation](https://wesejong.cafe24.com/meetmatch/event/explanation)
 
-![미팅매칭 설명페이지4 [https://wesejong.cafe24.com/meetmatch/event/explanation](https://wesejong.cafe24.com/meetmatch/event/explanation)](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a7af9dcc-bbbd-4877-b2b6-b5f909c6beab/Untitled.png)
+![미팅매칭 설명페이지4 [https://wesejong.cafe24.com/meetmatch/event/explanation](https://wesejong.cafe24.com/meetmatch/event/explanation)](https://user-images.githubusercontent.com/48047377/204066240-a9ed1130-d754-4363-82f5-1c6b15d7e7c7.png)
 
 미팅매칭 설명페이지4 [https://wesejong.cafe24.com/meetmatch/event/explanation](https://wesejong.cafe24.com/meetmatch/event/explanation)
 
-![미팅매칭 설명페이지5 [https://wesejong.cafe24.com/meetmatch/event/explanation](https://wesejong.cafe24.com/meetmatch/event/explanation)](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a38df18c-e715-4b52-b60c-5635d1effe95/Untitled.png)
+![미팅매칭 설명페이지5 [https://wesejong.cafe24.com/meetmatch/event/explanation](https://wesejong.cafe24.com/meetmatch/event/explanation)](https://user-images.githubusercontent.com/48047377/204066244-e1dffd2a-1123-4487-a5b9-4644c0dd8235.png)
 
 미팅매칭 설명페이지5 [https://wesejong.cafe24.com/meetmatch/event/explanation](https://wesejong.cafe24.com/meetmatch/event/explanation)
 
 ### 지원서작성화면입니다.
 
-![미팅매칭 지원서 작성화면1 [https://wesejong.cafe24.com/meetmatch/event/explanation](https://wesejong.cafe24.com/meetmatch/event/explanation)](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3baac664-d525-4628-8f51-4c185784fd64/Untitled.png)
+![미팅매칭 지원서 작성화면1 [https://wesejong.cafe24.com/meetmatch/event/explanation](https://wesejong.cafe24.com/meetmatch/event/explanation)](https://user-images.githubusercontent.com/48047377/204066246-a1d6ae62-1dcb-4916-a634-555cc23c8043.png)
 
 미팅매칭 지원서 작성화면1 [https://wesejong.cafe24.com/meetmatch/event/explanation](https://wesejong.cafe24.com/meetmatch/event/explanation)
 
@@ -365,7 +365,7 @@ CKEDITOR YOUTUBE Plugin을 통해 퍼오기가 가능합니다.
 
 존재하는 아이디라면 초록색 ✅가 나오고, 존재하지 않다면 빨간색 ❌표시가 나옵니다.
 
-![미팅매칭 지원서작성화면 2 [https://wesejong.cafe24.com/meetmatch/event/apply](https://wesejong.cafe24.com/meetmatch/event/apply)](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5c6fd3dc-bfcd-45e4-a747-57d9147364c2/Untitled.png)
+![미팅매칭 지원서작성화면 2 [https://wesejong.cafe24.com/meetmatch/event/apply](https://wesejong.cafe24.com/meetmatch/event/apply)](https://user-images.githubusercontent.com/48047377/204066247-538846d6-804f-4255-af92-33f4080e6059.png)
 
 미팅매칭 지원서작성화면 2 [https://wesejong.cafe24.com/meetmatch/event/apply](https://wesejong.cafe24.com/meetmatch/event/apply)
 
@@ -373,7 +373,7 @@ CKEDITOR YOUTUBE Plugin을 통해 퍼오기가 가능합니다.
 
 지원이 완료되면, 알림 메세지가 가게되고 발표일까지 기다리게 됩니다.
 
-![미팅매칭 지원완료페이지 [https://wesejong.cafe24.com/meetmatch/event/apply](https://wesejong.cafe24.com/meetmatch/event/apply)](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d5e9637c-1606-410d-bc97-b7c37990d0d6/Untitled.png)
+![미팅매칭 지원완료페이지 [https://wesejong.cafe24.com/meetmatch/event/apply](https://wesejong.cafe24.com/meetmatch/event/apply)](https://user-images.githubusercontent.com/48047377/204066250-293377b0-7fd1-4e90-9fa5-089787ec6c47.png)
 
 미팅매칭 지원완료페이지 [https://wesejong.cafe24.com/meetmatch/event/apply](https://wesejong.cafe24.com/meetmatch/event/apply)
 
@@ -381,7 +381,7 @@ CKEDITOR YOUTUBE Plugin을 통해 퍼오기가 가능합니다.
 
 -중복지원할시, 서버단에서 검사하는 아이디유효성검사에서 오류가 나왔을시 에러가 발생합니다.
 
-![미팅매칭 지원실패페이지 [https://wesejong.cafe24.com/meetmatch/event/apply](https://wesejong.cafe24.com/meetmatch/event/apply)](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/39fb2a42-52a3-4325-bffb-a3b55092b29a/Untitled.png)
+![미팅매칭 지원실패페이지 [https://wesejong.cafe24.com/meetmatch/event/apply](https://wesejong.cafe24.com/meetmatch/event/apply)](https://user-images.githubusercontent.com/48047377/204066253-26533d30-967f-4c87-89fa-cf177ece1414.png)
 
 미팅매칭 지원실패페이지 [https://wesejong.cafe24.com/meetmatch/event/apply](https://wesejong.cafe24.com/meetmatch/event/apply)
 
@@ -389,7 +389,7 @@ CKEDITOR YOUTUBE Plugin을 통해 퍼오기가 가능합니다.
 
 본인이 지원했던 이력을 볼 수 있습니다. 
 
-![미팅매칭 지원목록페이지 [https://wesejong.cafe24.com/meetmatch/event/applicationhistory](https://wesejong.cafe24.com/meetmatch/event/applicationhistory)](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2aec1371-e2d7-40a2-af6a-f1326dd5db0a/Untitled.png)
+![미팅매칭 지원목록페이지 [https://wesejong.cafe24.com/meetmatch/event/applicationhistory](https://wesejong.cafe24.com/meetmatch/event/applicationhistory)](https://user-images.githubusercontent.com/48047377/204066256-dc016f2d-b098-4023-a13c-abd6d72b955e.png)
 
 미팅매칭 지원목록페이지 [https://wesejong.cafe24.com/meetmatch/event/applicationhistory](https://wesejong.cafe24.com/meetmatch/event/applicationhistory)
 
@@ -403,7 +403,7 @@ CKEDITOR YOUTUBE Plugin을 통해 퍼오기가 가능합니다.
 
 만약 매칭된다면 자동으로 미팅매칭된 팀이 채팅방에 초대되며, 매칭결과는 성공으로 변하게 됩니다.
 
-![미팅매칭 지원상세페이지 [https://wesejong.cafe24.com/meetmatch/event/applicationdetails?meetmatchteam_seq=20](https://wesejong.cafe24.com/meetmatch/event/applicationdetails?meetmatchteam_seq=20)](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8e87ae8a-1867-44b3-9f71-2cc6c111d992/Untitled.png)
+![미팅매칭 지원상세페이지 [https://wesejong.cafe24.com/meetmatch/event/applicationdetails?meetmatchteam_seq=20](https://wesejong.cafe24.com/meetmatch/event/applicationdetails?meetmatchteam_seq=20)](https://user-images.githubusercontent.com/48047377/204066257-3c9a7834-5999-49f6-85f8-4ebf82fe02b5.png)
 
 미팅매칭 지원상세페이지 [https://wesejong.cafe24.com/meetmatch/event/applicationdetails?meetmatchteam_seq=20](https://wesejong.cafe24.com/meetmatch/event/applicationdetails?meetmatchteam_seq=20)
 
@@ -439,7 +439,7 @@ meematchteammate : 미팅매칭팀에 소속된 팀원들의 정보를 보여줍
 
 이벤트랜덤미팅프로그램실행으로 무작위로 신청한 팀원들을 묶어줍니다.
 
-![관리자페이지](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f948e1e5-6c8c-461f-a8b1-55c51956db6b/Untitled.png)
+![관리자페이지](https://user-images.githubusercontent.com/48047377/204066258-b3b75699-02fe-49df-991f-ae7784fc8bc8.png)
 
 관리자페이지
 
