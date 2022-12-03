@@ -145,7 +145,7 @@ PC화면
 
 ![Untitled](https://user-images.githubusercontent.com/48047377/204066130-67620195-160c-4609-af6f-a1242d98aedf.png)
 
-![메인페이지 [https://wesejong.cafe24.com/](https://wesejong.cafe24.com/)](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c64620bc-45bd-4142-8394-815723f29659/Untitled.png)
+![메인페이지 [https://wesejong.cafe24.com/](https://wesejong.cafe24.com/)](https://user-images.githubusercontent.com/48047377/204066134-5f76a35b-88e1-4155-8dae-6f8dacc09060.png)
 
 메인페이지 [https://wesejong.cafe24.com/](https://wesejong.cafe24.com/)
 
@@ -157,11 +157,11 @@ spring security를 활용하여 관리자, 멤버별로 접근할 수 있는 페
 
 일반회원 권한(role = member)이라면, 메인페이지로 이동합니다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9e1387ef-cd43-4eab-a1ba-299e95577da0/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/48047377/204066138-e311cbda-5433-4ccc-b133-242b577b6bbc.png)
 
-![위세종 로그인화면 [https://wesejong.cafe24.com/member/login](https://wesejong.cafe24.com/member/login)](https://user-images.githubusercontent.com/48047377/204066138-e311cbda-5433-4ccc-b133-242b577b6bbc.png)
+![위세종 로그인화면 [https://wesejong.cafe24.com/member/login](https://wesejong.cafe24.com/member/login)](https://user-images.githubusercontent.com/48047377/204066141-3134dbc0-1f06-454e-a82d-3dcebfdd6d1b.png)
 
-위세종 로그인화면 [https://wesejong.cafe24.com/member/login](https://user-images.githubusercontent.com/48047377/204066141-3134dbc0-1f06-454e-a82d-3dcebfdd6d1b.png)
+위세종 로그인화면 [https://wesejong.cafe24.com/member/login](https://wesejong.cafe24.com/member/login)
 
 ### 회원가입화면입니다.
 
@@ -169,9 +169,9 @@ spring security를 활용하여 관리자, 멤버별로 접근할 수 있는 페
 
 세종대학교 재학생만 가지고 있는 이메일 주소인 @sju.ac.kr 을 통하여 재학생인증을 하도록 개발했습니다. 이메일 인증번호를 Spring Session에 저장하여 사용자가 이메일번호를 보지못하도록 개발하였습니다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/71949d1a-aac6-4367-9aba-e7300f7750ca/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/48047377/204066144-6f7494b8-378d-48b8-bdf9-5df3c72d3115.png)
 
-![회원가입화면 [https://wesejong.cafe24.com/member/join](https://wesejong.cafe24.com/member/join)](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dc668232-cdd3-49c2-992e-5f474fd601b4/Untitled.png)
+![회원가입화면 [https://wesejong.cafe24.com/member/join](https://wesejong.cafe24.com/member/join)](https://user-images.githubusercontent.com/48047377/204066145-e709b2f0-95e6-4506-84dd-5e62e597f9f3.png)
 
 회원가입화면 [https://wesejong.cafe24.com/member/join](https://wesejong.cafe24.com/member/join)
 
@@ -181,7 +181,7 @@ spring security를 활용하여 관리자, 멤버별로 접근할 수 있는 페
 
 또한 인증번호발송은 wesejong@[weseong.cafe24.com](http://weseong.cafe24.com)  구글 SMTP를 사용하여 메일을 발송하였습니다
 
-![위세종 SMTP를 활용한 메일인증화면](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4358e86b-ee5b-4065-894c-95e0d226acbc/Untitled.png)
+![위세종 SMTP를 활용한 메일인증화면](https://user-images.githubusercontent.com/48047377/204066148-6a63f6ec-da3f-45a3-91bd-cbc755b97dcd.png)
 
 위세종 SMTP를 활용한 메일인증화면
 
@@ -189,11 +189,11 @@ spring security를 활용하여 관리자, 멤버별로 접근할 수 있는 페
 
 위세종 아이디/비밀번호를 분실하였을때 이메일 인증번호를 통하여 아이디 찾기,패스워드 찾기 기능입니다.
 
-![아이디찾기 화면 [https://wesejong.cafe24.com/member/forgot](https://wesejong.cafe24.com/member/forgot)](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/31d3f5b0-4323-4a39-bcd2-dc37d6bbd0cd/Untitled.png)
+![아이디찾기 화면 [https://wesejong.cafe24.com/member/forgot](https://wesejong.cafe24.com/member/forgot)](https://user-images.githubusercontent.com/48047377/204066151-3a293d92-b84f-44de-b03e-46a8e19b6bf9.png)
 
 아이디찾기 화면 [https://wesejong.cafe24.com/member/forgot](https://wesejong.cafe24.com/member/forgot)
 
-![패스워드찾기화면 [https://wesejong.cafe24.com/member/forgot](https://wesejong.cafe24.com/member/forgot)](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8a1a7c39-f089-4a1c-92bc-7edb43063165/Untitled.png)
+![패스워드찾기화면 [https://wesejong.cafe24.com/member/forgot](https://wesejong.cafe24.com/member/forgot)](https://user-images.githubusercontent.com/48047377/204066153-321772ba-109f-4faa-a391-03f15cd503e5.png)
 
 패스워드찾기화면 [https://wesejong.cafe24.com/member/forgot](https://wesejong.cafe24.com/member/forgot)
 
@@ -205,9 +205,9 @@ spring security를 활용하여 관리자, 멤버별로 접근할 수 있는 페
 
 Session을 통해 현재 로그인한 사용자 고유번호를 통해 정보를 가져옵니다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d08c84b8-109c-4df1-9174-29e6766b25a4/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/48047377/204066155-eea9d478-e385-4879-b58d-1464cc0ae064.png)
 
-![마이페이지화면 [https://wesejong.cafe24.com/member/mypage#](https://wesejong.cafe24.com/member/mypage#)](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3936f8cc-c866-45e7-be25-3af8b76a51a2/Untitled.png)
+![마이페이지화면 [https://wesejong.cafe24.com/member/mypage#](https://wesejong.cafe24.com/member/mypage#)](https://user-images.githubusercontent.com/48047377/204066159-b7753a3c-b594-4e4a-bcf2-5f6fa31ccde0.png)
 
 마이페이지화면 [https://wesejong.cafe24.com/member/mypage#](https://wesejong.cafe24.com/member/mypage#)
 
@@ -215,7 +215,7 @@ Session을 통해 현재 로그인한 사용자 고유번호를 통해 정보를
 
 [마이페이지]-[탈퇴하기] 버튼을 눌렀을떄 화면입니다.
 
-![탈퇴하기기능 화면 [https://wesejong.cafe24.com/member/secession](https://wesejong.cafe24.com/member/secession)](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/70d2e34c-310f-4fda-b090-5605925994bd/Untitled.png)
+![탈퇴하기기능 화면 [https://wesejong.cafe24.com/member/secession](https://wesejong.cafe24.com/member/secession)](https://user-images.githubusercontent.com/48047377/204066160-fe92864b-874c-4a1c-b7b8-4a682539a240.png)
 
 탈퇴하기기능 화면 [https://wesejong.cafe24.com/member/secession](https://wesejong.cafe24.com/member/secession)
 
@@ -225,7 +225,7 @@ Session을 통해 현재 로그인한 사용자 고유번호를 통해 정보를
 
 회원가입을 완료하였을때, 미팅매칭에서 이벤트 신청이 완료되었을때 알림이 나오게 만들었습니다.
 
-![알림내역 확인 [https://wesejong.cafe24.com/member/info/alarm#](https://wesejong.cafe24.com/member/info/alarm#)](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8115059a-580d-42c8-948b-b9120146f2c4/Untitled.png)
+![알림내역 확인 [https://wesejong.cafe24.com/member/info/alarm#](https://wesejong.cafe24.com/member/info/alarm#)](https://user-images.githubusercontent.com/48047377/204066162-f0296b96-4336-4b3d-a3f9-bda5b7def092.png)
 
 알림내역 확인 [https://wesejong.cafe24.com/member/info/alarm#](https://wesejong.cafe24.com/member/info/alarm#)
 
@@ -237,7 +237,7 @@ Session을 통해 현재 로그인한 사용자 고유번호를 통해 정보를
 
 채팅같은경우, 게시글의 작성자, 댓글을 쓴 사람들에게 채팅을 걸 수 있습니다.
 
-![채팅목록화면 [https://wesejong.cafe24.com/member/info/chatroomlist](https://wesejong.cafe24.com/member/info/chatroomlist)](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/762009e5-0da3-4047-9cca-e316ea14823c/Untitled.png)
+![채팅목록화면 [https://wesejong.cafe24.com/member/info/chatroomlist](https://wesejong.cafe24.com/member/info/chatroomlist)](https://user-images.githubusercontent.com/48047377/204066165-2e6560fe-b1b7-48ac-ab5b-489b5d89b022.png)
 
 채팅목록화면 [https://wesejong.cafe24.com/member/info/chatroomlist](https://wesejong.cafe24.com/member/info/chatroomlist)
 
@@ -247,7 +247,7 @@ Spring WebSocket with Stomp(스트리밍 텍스트 지향 프로토콜)를 통�
 
 채팅을 하는 모습입니다. 오른쪽 상단의 나가기버튼을 통해 채팅방에서 아예 나갈 수 있습니다.
 
-![Spring Websocket With Stomp 채팅화면 , test1과 test2가 서로 채팅하는모습[https://wesejong.cafe24.com/socket/chat?chatroom_uuid=868e383c-1ffb-4f08-84c8-e15cca6f1864](https://wesejong.cafe24.com/socket/chat?chatroom_uuid=868e383c-1ffb-4f08-84c8-e15cca6f1864&new_board_id_999=1&new_board_id_101=0&new_board_id_102=0&new_board_id_103=0&new_board_id_104=0&new_board_id_105=0&new_board_id_106=0&new_board_id_201=0&new_board_id_202=0&new_board_id_203=0&new_board_id_204=0&new_board_id_205=0&new_board_id_206=0&new_board_id_301=0&new_board_id_302=0&new_board_id_303=0&new_board_id_304=1&new_board_id_305=0&new_board_id_306=0&new_board_id_401=0&new_board_id_402=0&new_board_id_403=0&new_board_id_404=0&new_board_id_405=0&new_board_id_406=0&new_board_id_501=0&new_board_id_502=1&new_board_id_503=0&new_board_id_504=0&new_board_id_505=0&new_board_id_506=0&new_alarm=3)](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/04533543-a864-4e69-aa15-490b46e0e7fe/Untitled.png)
+![Spring Websocket With Stomp 채팅화면 , test1과 test2가 서로 채팅하는모습[https://wesejong.cafe24.com/socket/chat?chatroom_uuid=868e383c-1ffb-4f08-84c8-e15cca6f1864](https://wesejong.cafe24.com/socket/chat?chatroom_uuid=868e383c-1ffb-4f08-84c8-e15cca6f1864&new_board_id_999=1&new_board_id_101=0&new_board_id_102=0&new_board_id_103=0&new_board_id_104=0&new_board_id_105=0&new_board_id_106=0&new_board_id_201=0&new_board_id_202=0&new_board_id_203=0&new_board_id_204=0&new_board_id_205=0&new_board_id_206=0&new_board_id_301=0&new_board_id_302=0&new_board_id_303=0&new_board_id_304=1&new_board_id_305=0&new_board_id_306=0&new_board_id_401=0&new_board_id_402=0&new_board_id_403=0&new_board_id_404=0&new_board_id_405=0&new_board_id_406=0&new_board_id_501=0&new_board_id_502=1&new_board_id_503=0&new_board_id_504=0&new_board_id_505=0&new_board_id_506=0&new_alarm=3)](https://user-images.githubusercontent.com/48047377/204066168-1cde6aa4-efe9-4373-9a84-216e3f6566df.png)
 
 Spring Websocket With Stomp 채팅화면 , test1과 test2가 서로 채팅하는모습[https://wesejong.cafe24.com/socket/chat?chatroom_uuid=868e383c-1ffb-4f08-84c8-e15cca6f1864](https://wesejong.cafe24.com/socket/chat?chatroom_uuid=868e383c-1ffb-4f08-84c8-e15cca6f1864&new_board_id_999=1&new_board_id_101=0&new_board_id_102=0&new_board_id_103=0&new_board_id_104=0&new_board_id_105=0&new_board_id_106=0&new_board_id_201=0&new_board_id_202=0&new_board_id_203=0&new_board_id_204=0&new_board_id_205=0&new_board_id_206=0&new_board_id_301=0&new_board_id_302=0&new_board_id_303=0&new_board_id_304=1&new_board_id_305=0&new_board_id_306=0&new_board_id_401=0&new_board_id_402=0&new_board_id_403=0&new_board_id_404=0&new_board_id_405=0&new_board_id_406=0&new_board_id_501=0&new_board_id_502=1&new_board_id_503=0&new_board_id_504=0&new_board_id_505=0&new_board_id_506=0&new_alarm=3)
 
@@ -259,9 +259,9 @@ Spring Websocket With Stomp 채팅화면 , test1과 test2가 서로 채팅하는
 
 또한 이미지파일이 있을시 목록에 이미지파일 표시, 댓글표시 등이 나타납니다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/833925a6-7c9c-41e7-b176-00ce31e7d659/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/48047377/204066172-6a9e0c37-3ec2-43df-b87d-a064dc322d08.png)
 
-![게시판 목록화면 [https://wesejong.cafe24.com/board/list?board_id=103](https://wesejong.cafe24.com/board/list?board_id=103)](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c6dba8a5-43e5-46d9-8a3f-545c3b9cbb31/Untitled.png)
+![게시판 목록화면 [https://wesejong.cafe24.com/board/list?board_id=103](https://wesejong.cafe24.com/board/list?board_id=103)](https://user-images.githubusercontent.com/48047377/204066174-3650a835-d75d-45af-97da-d3525bb72361.png)
 
 게시판 목록화면 [https://wesejong.cafe24.com/board/list?board_id=103](https://wesejong.cafe24.com/board/list?board_id=103)
 
@@ -273,19 +273,19 @@ Spring Websocket With Stomp 채팅화면 , test1과 test2가 서로 채팅하는
 
 <맛집게시판, 맛집게시판에 올려진 게시글상세보기입니다>
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5a97ef0d-7434-45e6-89f1-21063f931c6e/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/48047377/204066176-d010f936-d727-4a04-b5c3-4521be6b7474.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d50b4084-e81f-4e37-8300-239c5566d1e7/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/48047377/204066178-0bcb32e3-e2ec-445f-976e-7bfc05949cf9.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8a129ed6-0d9b-47e3-9b23-e6a65eb140fb/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/48047377/204066179-1df9749b-b2f7-4a97-8458-244397a61f29.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e1fc192f-f6d0-4f1a-871f-8526ca85e06c/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/48047377/204066180-448ae8f3-0e9d-4195-a846-9e6501d9a676.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3620127e-f13b-441e-bc6d-77e79833e820/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/48047377/204066182-b4d1a134-e97c-48de-bd4c-47404a05a636.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fd620b03-4526-4b49-aa9f-a57116dbdbd2/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/48047377/204066186-538348e5-190c-4faa-a727-053f7f3485f2.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5bfe3a9c-43b0-41d3-8ca6-4a828e854042/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/48047377/204066189-72e6f968-5ba1-43bb-9c04-90fb4679d9b7.png)
 
 ![게시판 상세보기 화면1 [https://wesejong.cafe24.com/board/get?bno=6](https://wesejong.cafe24.com/board/get?bno=6)](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/72cd81ae-53e5-410d-9db1-25f0008066d8/Untitled.png)
 
