@@ -12,7 +12,7 @@
 
 테스트 계정 ID/PW : test2 / test2 
 
-![[https://wesejong.cafe24.com](https://wesejong.cafe24.com/)](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ef482f13-34c4-484b-8513-0b5e0db1c857/Untitled.png)
+![[https://wesejong.cafe24.com](https://wesejong.cafe24.com/)](https://user-images.githubusercontent.com/48047377/204066094-5732b691-0144-47f3-ae5d-ad451f13414f.png)
 
 [https://wesejong.cafe24.com](https://wesejong.cafe24.com/)
 
