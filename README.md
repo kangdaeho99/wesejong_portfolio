@@ -54,10 +54,9 @@
 ![DB ERD](https://user-images.githubusercontent.com/48047377/209076110-03a1741c-822a-48fa-a3ea-3b5538a85346.PNG)
 
 
-
-
 <br/>
 <br/>
+
 **사이트접속방법 및 홍보방법**
 
 - 구글에서 ‘wesejong’ 네이버에서 ‘wesejong’을 검색하면 접속가능합니다.
