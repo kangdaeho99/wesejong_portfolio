@@ -47,6 +47,37 @@
 - 서비스의 기획부터 마무리까지 경험해보고 싶었습니다.
 - 각 파트마다 1명만 담당을 하여 서비스의 처음부터 끝까지 직접 경험할 수 있었고, 이러한 작은 프로젝트에 사람이 많을 경우 오히려 의사소통의 비용, 기획과정에서의 결정비용이 증가한다고 생각하여 최소한의 인원으로 진행했습니다.
 
+## 📜 기술 스택
+
+---
+
+### Front & Backend
+
+- java 1.8
+- Spring Framework 5.0.7
+- MySQL 8.0.21
+- HTML/CSS, JAVASCRIPT
+- AJAX
+
+### Maven Added Library
+
+- **For Spring Security** : spring-security-web 5.0.7, spring-security-config 5.0.7, spring-security-core 5.0.7, spring-security-taglibs 5.0.7
+- **For Checking log** : log4j 1.2.15, log4jdbc-log4j2-jdbc4 1.16, slf4j-api 1.6.6, jcl-over-slf4j 1.6.6, slf4j-log4j12 1.6.6
+- **For Test** : junit 4.12, spring-test
+- **For Connect databases with mybatis(SQL Mapper)** : mybatis 3.4.6, mybatis-spring 1.3.2, spring-jdbc, spring-tx(transaction), HikariCP 2.7.8, mysql-connector-java 8.0.21
+- **For Board Image** : thumbnailator 0.4.8
+- **For Develop Efficiency** : lombok 1.18.0,
+- **For Chatting** : spring-websocket 5.0.7, spring-messaging 5.0.7, javax.websocket-api 1.1
+- **For Mailing** : javax.mail 1.5.6
+- **For Other things** : spring-context-support 5.0.7
+- **For Changing DataFormat** : gson 2.8.2, jackson-databind 2.9.6, jackson-dataformat-xml 2.9.6
+
+### Infrastructure
+
+- Spring Framework with Github Actions
+- CAFE24, PUTTY, FILEZILLA
+- Apache Tomcat 9.0.30
+
 
 ### 📒DB구조
 
