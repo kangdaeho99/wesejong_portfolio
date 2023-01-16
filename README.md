@@ -92,9 +92,9 @@
 
 - 구글에서 ‘wesejong’ 네이버에서 ‘wesejong’을 검색하면 접속가능합니다.
 - 에브리타임 홍보게시판, 세종대학교 갤러리에 홍보
-<details>
-<summary>관련 이미지 캡처</summary>
-<div markdown="1">       
+<!-- <details> -->
+<!-- <summary>관련 이미지 캡처</summary> -->
+<!-- <div markdown="1">        -->
 ![구글에서 ‘wesejong’을 검색한 그림](https://user-images.githubusercontent.com/48047377/204066102-9da07165-780b-4c7f-a554-907ebbfa7dfd.png)
 
 구글에서 ‘wesejong’을 검색한 그림
@@ -123,8 +123,8 @@
 
 세종대학교 갤러리 홍보글2
 
-</div>
-</details>
+<!-- </div> -->
+<!-- </details> -->
 
 
 **구현된기능**
