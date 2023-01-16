@@ -104,7 +104,7 @@
 <img src="https://user-images.githubusercontent.com/48047377/204066117-b23ca6ee-b03f-4158-a7e5-c9fd026ace4c.jpg" height="400">
 
 <details>
-<summary>추가 홍보 이미지</summary>
+<summary><U>추가 홍보 이미지 클릭</U></summary>
 <div markdown="1">
 ![에브리타임에 홍보글1](https://user-images.githubusercontent.com/48047377/204066109-9b1f1c9d-a468-4ead-b9d6-f4134e42996e.jpg)
 <!-- <img src="https://user-images.githubusercontent.com/48047377/204066109-9b1f1c9d-a468-4ead-b9d6-f4134e42996e.jpg" height="400"> -->
@@ -128,6 +128,8 @@
 
 </div>
 </details>
+
+
 
 
 **구현된기능**
