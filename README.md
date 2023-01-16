@@ -106,29 +106,26 @@
 <details>
 <summary><U>추가 홍보 이미지 클릭</U></summary>
 <div markdown="1">
-![에브리타임에 홍보글1](https://user-images.githubusercontent.com/48047377/204066109-9b1f1c9d-a468-4ead-b9d6-f4134e42996e.jpg)
-<!-- <img src="https://user-images.githubusercontent.com/48047377/204066109-9b1f1c9d-a468-4ead-b9d6-f4134e42996e.jpg" height="400"> -->
-에브리타임에 홍보글1
+<!-- ![에브리타임에 홍보글1](https://user-images.githubusercontent.com/48047377/204066109-9b1f1c9d-a468-4ead-b9d6-f4134e42996e.jpg) -->
+<img src="https://user-images.githubusercontent.com/48047377/204066109-9b1f1c9d-a468-4ead-b9d6-f4134e42996e.jpg" height="400">
 
-![에브리타임홍보글2](https://user-images.githubusercontent.com/48047377/204066114-7d5f5934-a63c-4e16-b91d-0b0317635ab0.jpg)
+<!-- ![에브리타임홍보글2](https://user-images.githubusercontent.com/48047377/204066114-7d5f5934-a63c-4e16-b91d-0b0317635ab0.jpg) -->
+<img src="https://user-images.githubusercontent.com/48047377/204066114-7d5f5934-a63c-4e16-b91d-0b0317635ab0.jpg" height="400">
+    
 
-에브리타임홍보글2
+<!-- ![에브리타임홍보글3](https://user-images.githubusercontent.com/48047377/204066117-b23ca6ee-b03f-4158-a7e5-c9fd026ace4c.jpg) -->
+<img src="https://user-images.githubusercontent.com/48047377/204066117-b23ca6ee-b03f-4158-a7e5-c9fd026ace4c.jpg" height="400">
 
-![에브리타임홍보글3](https://user-images.githubusercontent.com/48047377/204066117-b23ca6ee-b03f-4158-a7e5-c9fd026ace4c.jpg)
+<!-- ![세종대학교 갤러리 홍보글1](https://user-images.githubusercontent.com/48047377/204066118-b42fff6f-0a89-4416-ad3f-e114ee0557b9.png) -->
+<img src="https://user-images.githubusercontent.com/48047377/204066118-b42fff6f-0a89-4416-ad3f-e114ee0557b9.png" height="400">
 
-에브리타임홍보글3
-
-![세종대학교 갤러리 홍보글1](https://user-images.githubusercontent.com/48047377/204066118-b42fff6f-0a89-4416-ad3f-e114ee0557b9.png)
-
-세종대학교 갤러리 홍보글1
-
-![세종대학교 갤러리 홍보글2](https://user-images.githubusercontent.com/48047377/204066120-b002c426-1004-45bf-ad86-0ede8efd722d.png)
-
-세종대학교 갤러리 홍보글2
+<!-- ![세종대학교 갤러리 홍보글2](https://user-images.githubusercontent.com/48047377/204066120-b002c426-1004-45bf-ad86-0ede8efd722d.png) -->
+<img src="https://user-images.githubusercontent.com/48047377/204066120-b002c426-1004-45bf-ad86-0ede8efd722d.png" height="400">
 
 </div>
 </details>
 
+<br/><br/>
 
 
 
