@@ -95,31 +95,31 @@
 <!-- <details> -->
 <!-- <summary>관련 이미지 캡처</summary> -->
 <!-- <div markdown="1">        -->
-![구글에서 ‘wesejong’을 검색한 그림](https://user-images.githubusercontent.com/48047377/204066102-9da07165-780b-4c7f-a554-907ebbfa7dfd.png)
+![구글에서 ‘wesejong’을 검색한 그림](https://user-images.githubusercontent.com/48047377/204066102-9da07165-780b-4c7f-a554-907ebbfa7dfd.png){height=400px width=500px}
 
 구글에서 ‘wesejong’을 검색한 그림
 
-![네이버에서 ‘wesejong’을 검색한 그림](https://user-images.githubusercontent.com/48047377/204066106-a17b1b7d-f7da-47fd-b52f-c32a2ec64b97.png)
+![네이버에서 ‘wesejong’을 검색한 그림](https://user-images.githubusercontent.com/48047377/204066106-a17b1b7d-f7da-47fd-b52f-c32a2ec64b97.png){height=400px width=500px}
 
 네이버에서 ‘wesejong’을 검색한 그림
 
-![에브리타임에 홍보글1](https://user-images.githubusercontent.com/48047377/204066109-9b1f1c9d-a468-4ead-b9d6-f4134e42996e.jpg)
+![에브리타임에 홍보글1](https://user-images.githubusercontent.com/48047377/204066109-9b1f1c9d-a468-4ead-b9d6-f4134e42996e.jpg){height=400px width=500px}
 
 에브리타임에 홍보글1
 
-![에브리타임홍보글2](https://user-images.githubusercontent.com/48047377/204066114-7d5f5934-a63c-4e16-b91d-0b0317635ab0.jpg)
+![에브리타임홍보글2](https://user-images.githubusercontent.com/48047377/204066114-7d5f5934-a63c-4e16-b91d-0b0317635ab0.jpg){height=400px width=500px}
 
 에브리타임홍보글2
 
-![에브리타임홍보글3](https://user-images.githubusercontent.com/48047377/204066117-b23ca6ee-b03f-4158-a7e5-c9fd026ace4c.jpg)
+![에브리타임홍보글3](https://user-images.githubusercontent.com/48047377/204066117-b23ca6ee-b03f-4158-a7e5-c9fd026ace4c.jpg){height=400px width=500px}
 
 에브리타임홍보글3
 
-![세종대학교 갤러리 홍보글1](https://user-images.githubusercontent.com/48047377/204066118-b42fff6f-0a89-4416-ad3f-e114ee0557b9.png)
+![세종대학교 갤러리 홍보글1](https://user-images.githubusercontent.com/48047377/204066118-b42fff6f-0a89-4416-ad3f-e114ee0557b9.png){height=400px width=500px}
 
 세종대학교 갤러리 홍보글1
 
-![세종대학교 갤러리 홍보글2](https://user-images.githubusercontent.com/48047377/204066120-b002c426-1004-45bf-ad86-0ede8efd722d.png)
+![세종대학교 갤러리 홍보글2](https://user-images.githubusercontent.com/48047377/204066120-b002c426-1004-45bf-ad86-0ede8efd722d.png){height=400px width=500px}
 
 세종대학교 갤러리 홍보글2
 
