@@ -237,7 +237,7 @@ spring security를 활용하여 관리자, 멤버별로 접근할 수 있는 페
 
 아이디찾기 화면 [https://wesejong.cafe24.com/member/forgot](https://wesejong.cafe24.com/member/forgot)
 
-![패스워드찾기화면 [https://wesejong.cafe24.com/member/forgot](https://wesejong.cafe24.com/member/forgot)](https://user-images.githubusercontent.com/48047377/204066153-321772ba-109f-4faa-a391-03f15cd503e5.png)
+<!-- ![패스워드찾기화면 [https://wesejong.cafe24.com/member/forgot](https://wesejong.cafe24.com/member/forgot)](https://user-images.githubusercontent.com/48047377/204066153-321772ba-109f-4faa-a391-03f15cd503e5.png) -->
 
 <img src="https://user-images.githubusercontent.com/48047377/204066153-321772ba-109f-4faa-a391-03f15cd503e5.png" width="50%"/>
 
