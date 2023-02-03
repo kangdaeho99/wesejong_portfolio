@@ -233,11 +233,13 @@ spring security를 활용하여 관리자, 멤버별로 접근할 수 있는 페
 위세종 아이디/비밀번호를 분실하였을때 이메일 인증번호를 통하여 아이디 찾기,패스워드 찾기 기능입니다.
 
 <!-- ![아이디찾기 화면 [https://wesejong.cafe24.com/member/forgot](https://wesejong.cafe24.com/member/forgot)](https://user-images.githubusercontent.com/48047377/204066151-3a293d92-b84f-44de-b03e-46a8e19b6bf9.png) -->
-<img src="https://user-images.githubusercontent.com/48047377/204066151-3a293d92-b84f-44de-b03e-46a8e19b6bf9.png" width="200"/>
+<img src="https://user-images.githubusercontent.com/48047377/204066151-3a293d92-b84f-44de-b03e-46a8e19b6bf9.png" width="50%"/>
 
 아이디찾기 화면 [https://wesejong.cafe24.com/member/forgot](https://wesejong.cafe24.com/member/forgot)
 
 ![패스워드찾기화면 [https://wesejong.cafe24.com/member/forgot](https://wesejong.cafe24.com/member/forgot)](https://user-images.githubusercontent.com/48047377/204066153-321772ba-109f-4faa-a391-03f15cd503e5.png)
+
+<img src="https://user-images.githubusercontent.com/48047377/204066153-321772ba-109f-4faa-a391-03f15cd503e5.png" width="50%"/>
 
 패스워드찾기화면 [https://wesejong.cafe24.com/member/forgot](https://wesejong.cafe24.com/member/forgot)
 
