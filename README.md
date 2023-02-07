@@ -193,8 +193,8 @@
 
 ##  1.메인페이지(모바일화면도 제공합니다.) 
 
-> 로그인을 한상태로만 사이트에 기능을 사용가능합니다. Spring Security를 활용하여 Role에 허가된 권한자만 접근할 수 있도록 설정했습니다. 테스트계정으로 접속바랍니다.
-테스트 계정 ID/PW : test1 / test1  
+> 로그인을 한상태로만 사이트에 기능을 사용가능합니다. Spring Security를 활용하여 Role에 허가된 권한자만 접근할 수 있도록 설정했습니다. 테스트계정으로 접속바랍니다. <br/>
+테스트 계정 ID/PW : test1 / test1  <br/>
 테스트 계정 ID/PW : test2 / test2 
 
 ![Untitled](https://user-images.githubusercontent.com/48047377/204066126-2b4bc0f4-2cb2-44e2-96ae-3d17cf44569b.png)
@@ -256,7 +256,6 @@
 
 <!-- ![탈퇴하기기능 화면 [https://wesejong.cafe24.com/member/secession](https://wesejong.cafe24.com/member/secession)](https://user-images.githubusercontent.com/48047377/204066160-fe92864b-874c-4a1c-b7b8-4a682539a240.png) -->
 <img src="https://user-images.githubusercontent.com/48047377/204066160-fe92864b-874c-4a1c-b7b8-4a682539a240.png" width="50%"/>
-
 탈퇴하기기능 화면 [https://wesejong.cafe24.com/member/secession](https://wesejong.cafe24.com/member/secession)
 
 ## 7. 알림내역
