@@ -98,6 +98,7 @@
 -->
 
 ## 📒DB구조
+> DB 제 1NF, 2NF, 3NF 정규화 규칙을 지켰습니다.
 
 ![DB ERD](https://user-images.githubusercontent.com/48047377/209076110-03a1741c-822a-48fa-a3ea-3b5538a85346.PNG)
 
