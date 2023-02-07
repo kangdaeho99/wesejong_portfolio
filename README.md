@@ -317,12 +317,12 @@ Spring Websocket With Stomp 채팅화면 , test1과 test2가 서로 채팅하는
 
 ![Untitled](https://user-images.githubusercontent.com/48047377/204066207-64f81bf4-dad7-42b9-b99a-4ed524680c25.png)
 ![게시글 등록화면](https://user-images.githubusercontent.com/48047377/204066211-61e8140f-6f13-46cb-ab2e-55e397b7430b.png)
-게시글 등록화면
+
 
 ## 12.1 작성한 글의 상세보기
 ![Untitled](https://user-images.githubusercontent.com/48047377/204066222-856d9048-19f6-4584-b16d-02e0eb3b6739.png)
 ![게시글 상세화면](https://user-images.githubusercontent.com/48047377/204066218-d3daec84-4308-424b-89e6-7a2d62cd5db3.png)
-게시글 상세화면
+
 
 ## 13. 미팅매칭설명
 > 오픈이벤트로 미팅매칭 이벤트를 열어보았습니다. 사용자는 같이 신청할 팀원을 선정하여 초대하게 되고, 초대받게 된 사람들은 알람내역으로 온 알람을 통해 수락을 해야 참여가 가능합니다.
