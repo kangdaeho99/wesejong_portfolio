@@ -49,8 +49,25 @@
 
 ## 📜 기술 스택
 
----
+> 프론트엔드 기술스택은 다음과 같습니다.
+> 
+- HTML/CSS, JavaScript
 
+> 백엔드 기술스택은 다음과 같습니다.
+> 
+- Spring FrameWork(MVC Pattern)
+- @RequestBody를 활용한 REST API도 혼합활용
+- Spring Security (Security)
+- MySQL (RDBMS)
+- MYBATIS (SQL Mapper)
+- Spring WebSocket (TCP Connection)
+- SockJS (WebSocket Emulation)
+- STOMP (Message Broker)
+- Servlet 3.0 MutlipartFile (FileUpload)
+- Mock & JUnit (Test)
+- HikariCP (Database Connection Configuration)
+- CAFE24, PUTTY, FILEZILLA (Infra)
+<!-- 
 ### Front & Backend
 
 - java 1.8
@@ -77,9 +94,9 @@
 - Spring Framework with Github Actions
 - CAFE24, PUTTY, FILEZILLA
 - Apache Tomcat 9.0.30
+-->
 
-
-### 📒DB구조
+## 📒DB구조
 
 ---
 ![DB ERD](https://user-images.githubusercontent.com/48047377/209076110-03a1741c-822a-48fa-a3ea-3b5538a85346.PNG)
