@@ -109,16 +109,18 @@
 
 - 구글에서 ‘wesejong’ 네이버에서 ‘wesejong’을 검색하면 접속가능합니다.
 - 에브리타임 홍보게시판, 세종대학교 갤러리에 홍보
-
+- 
+<div markdown="1">
 <!-- ![구글에서 ‘wesejong’을 검색한 그림](https://user-images.githubusercontent.com/48047377/204066102-9da07165-780b-4c7f-a554-907ebbfa7dfd.png) -->
-<img src="https://user-images.githubusercontent.com/48047377/204066102-9da07165-780b-4c7f-a554-907ebbfa7dfd.png" height="300" width="30%">
+<img src="https://user-images.githubusercontent.com/48047377/204066102-9da07165-780b-4c7f-a554-907ebbfa7dfd.png" height="400">
 <!-- 구글에서 ‘wesejong’을 검색한 그림 -->
 
 <!-- ![네이버에서 ‘wesejong’을 검색한 그림](https://user-images.githubusercontent.com/48047377/204066106-a17b1b7d-f7da-47fd-b52f-c32a2ec64b97.png) -->
-<img src="https://user-images.githubusercontent.com/48047377/204066106-a17b1b7d-f7da-47fd-b52f-c32a2ec64b97.png" height="300" width="30%">
+<img src="https://user-images.githubusercontent.com/48047377/204066106-a17b1b7d-f7da-47fd-b52f-c32a2ec64b97.png" height="400">
 <!-- 네이버에서 ‘wesejong’을 검색한 그림 -->
 
-<img src="https://user-images.githubusercontent.com/48047377/204066117-b23ca6ee-b03f-4158-a7e5-c9fd026ace4c.jpg" height="300">
+<img src="https://user-images.githubusercontent.com/48047377/204066117-b23ca6ee-b03f-4158-a7e5-c9fd026ace4c.jpg" height="400">
+</
 
 <details>
 <summary><U>추가 홍보 이미지 클릭</U></summary>
