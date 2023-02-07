@@ -50,6 +50,7 @@
 - SockJS (WebSocket Emulation)
 - STOMP (Message Broker)
 - Servlet 3.0 MutlipartFile (FileUpload)
+- Thumbnailator (FileUpload)
 - Mock & JUnit (Test)
 - HikariCP (Database Connection Configuration)
 - CAFE24, PUTTY, FILEZILLA (Infra)
