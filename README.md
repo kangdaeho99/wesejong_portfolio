@@ -256,6 +256,7 @@
 
 <!-- ![탈퇴하기기능 화면 [https://wesejong.cafe24.com/member/secession](https://wesejong.cafe24.com/member/secession)](https://user-images.githubusercontent.com/48047377/204066160-fe92864b-874c-4a1c-b7b8-4a682539a240.png) -->
 <img src="https://user-images.githubusercontent.com/48047377/204066160-fe92864b-874c-4a1c-b7b8-4a682539a240.png" width="50%"/>
+
 탈퇴하기기능 화면 [https://wesejong.cafe24.com/member/secession](https://wesejong.cafe24.com/member/secession)
 
 ## 7. 알림내역
