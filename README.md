@@ -120,7 +120,7 @@
 <!-- 네이버에서 ‘wesejong’을 검색한 그림 -->
 
 <img src="https://user-images.githubusercontent.com/48047377/204066117-b23ca6ee-b03f-4158-a7e5-c9fd026ace4c.jpg" height="400">
-</
+</div>
 
 <details>
 <summary><U>추가 홍보 이미지 클릭</U></summary>
