@@ -9,7 +9,6 @@
 - **깃허브소스코드 :** [https://github.com/kangdaeho99/wesejong_public_portfolio](https://github.com/kangdaeho99/wesejong_public_portfolio) <br/>
 - 테스트 계정 ID/PW : test1 / test1 <br/>
 - 테스트 계정 ID/PW : test2 / test2 
-
 ![[https://wesejong.cafe24.com](https://wesejong.cafe24.com/)](https://user-images.githubusercontent.com/48047377/204066094-5732b691-0144-47f3-ae5d-ad451f13414f.png)
 
 [https://wesejong.cafe24.com](https://wesejong.cafe24.com/)
@@ -328,102 +327,60 @@ Spring Websocket With Stomp 채팅화면 , test1과 test2가 서로 채팅하는
 ![미팅매칭 설명페이지5 [https://wesejong.cafe24.com/meetmatch/event/explanation](https://wesejong.cafe24.com/meetmatch/event/explanation)](https://user-images.githubusercontent.com/48047377/204066244-e1dffd2a-1123-4487-a5b9-4644c0dd8235.png)
 [https://wesejong.cafe24.com/meetmatch/event/explanation](https://wesejong.cafe24.com/meetmatch/event/explanation)
 
-## 14. 지원서작성화면
+## 14. 지원서작성
+> 성별과 개인정보 제공에 관하여 정보를 얻은뒤, 미팅인원을 선택합니다. 인원은 2명이면 본인과 다른한명입니다. 인원은 관리자기능에서 유동적으로 변경할 수 있습니다. 그 이후에 같이 지원할 사용자의 아이디를 적고, 존재하는 아이디라면 초록색 ✅가 나오고, 존재하지 않다면 빨간색 ❌표시가 나옵니다.
+ 
 ![미팅매칭 지원서 작성화면1 [https://wesejong.cafe24.com/meetmatch/event/explanation](https://wesejong.cafe24.com/meetmatch/event/explanation)](https://user-images.githubusercontent.com/48047377/204066246-a1d6ae62-1dcb-4916-a634-555cc23c8043.png)
-미팅매칭 지원서 작성화면1 [https://wesejong.cafe24.com/meetmatch/event/explanation](https://wesejong.cafe24.com/meetmatch/event/explanation)
-
-### 지원서작성화면입니다.
-
-인원은 1명, 2명, 4명이 존재합니다.
-
-1명일때는 혼자서 지원하고, 2명이면 본인과 다른한명입니다.
-
-인원은 관리자기능에서 유동적으로 변경할 수 있습니다.
-
-지원방식은 같이 지원할 친구의 아이디를 적습니다. 
-
-존재하는 아이디라면 초록색 ✅가 나오고, 존재하지 않다면 빨간색 ❌표시가 나옵니다.
-
 ![미팅매칭 지원서작성화면 2 [https://wesejong.cafe24.com/meetmatch/event/apply](https://wesejong.cafe24.com/meetmatch/event/apply)](https://user-images.githubusercontent.com/48047377/204066247-538846d6-804f-4255-af92-33f4080e6059.png)
-
 미팅매칭 지원서작성화면 2 [https://wesejong.cafe24.com/meetmatch/event/apply](https://wesejong.cafe24.com/meetmatch/event/apply)
 
-### 지원이 완료된 화면입니다.
-
-지원이 완료되면, 알림 메세지가 가게되고 발표일까지 기다리게 됩니다.
+## 15. 지원완료
+> 지원이 완료되면, 알림 메세지가 가게되고 발표일까지 기다리게 됩니다.
 
 ![미팅매칭 지원완료페이지 [https://wesejong.cafe24.com/meetmatch/event/apply](https://wesejong.cafe24.com/meetmatch/event/apply)](https://user-images.githubusercontent.com/48047377/204066250-293377b0-7fd1-4e90-9fa5-089787ec6c47.png)
-
 미팅매칭 지원완료페이지 [https://wesejong.cafe24.com/meetmatch/event/apply](https://wesejong.cafe24.com/meetmatch/event/apply)
 
-### 지원 에러메시지화면입니다.
-
--중복지원할시, 서버단에서 검사하는 아이디유효성검사에서 오류가 나왔을시 에러가 발생합니다.
+## 16.지원 에러메시지
+> 잘못된 정보가 들어왔을시(ex. 중복지원, 아이디 유효성검사 에러)가 나왔을시 에러가 발생합니다.
 
 ![미팅매칭 지원실패페이지 [https://wesejong.cafe24.com/meetmatch/event/apply](https://wesejong.cafe24.com/meetmatch/event/apply)](https://user-images.githubusercontent.com/48047377/204066253-26533d30-967f-4c87-89fa-cf177ece1414.png)
-
 미팅매칭 지원실패페이지 [https://wesejong.cafe24.com/meetmatch/event/apply](https://wesejong.cafe24.com/meetmatch/event/apply)
 
-### 지원내역화면입니다.
-
-본인이 지원했던 이력을 볼 수 있습니다. 
+## 17.지원내역
+> 본인이 지원했던 이력을 볼 수 있습니다.  위의 지원목록을 하나 클릭하면 해당 지원의 상세정보가 나옵니다. 
 
 ![미팅매칭 지원목록페이지 [https://wesejong.cafe24.com/meetmatch/event/applicationhistory](https://wesejong.cafe24.com/meetmatch/event/applicationhistory)](https://user-images.githubusercontent.com/48047377/204066256-dc016f2d-b098-4023-a13c-abd6d72b955e.png)
-
 미팅매칭 지원목록페이지 [https://wesejong.cafe24.com/meetmatch/event/applicationhistory](https://wesejong.cafe24.com/meetmatch/event/applicationhistory)
 
-위의 지원목록을 하나 클릭하면 해당 지원의 상세정보가 나옵니다.
 
-아래의 페이지에서 미팅 승인/취소를 할 수 있습니다.
-
-두명 모두 승인이 되어야만 미팅팀에 매칭될 수 있습니다.
-
-### 지원상세정보입니다.
-
-만약 매칭된다면 자동으로 미팅매칭된 팀이 채팅방에 초대되며, 매칭결과는 성공으로 변하게 됩니다.
+## 18. 지원상세정보입니다.
+> 상세정보에서 미팅 승인/취소를 할 수 있습니다. 미팅 해당팀원 모두 승인이 되어야만 미팅팀에 매칭될 수 있습니다.만약 매칭된다면 자동으로 미팅매칭된 팀이 채팅방에 초대되며, 매칭결과는 성공으로 변하게 됩니다
 
 ![미팅매칭 지원상세페이지 [https://wesejong.cafe24.com/meetmatch/event/applicationdetails?meetmatchteam_seq=20](https://wesejong.cafe24.com/meetmatch/event/applicationdetails?meetmatchteam_seq=20)](https://user-images.githubusercontent.com/48047377/204066257-3c9a7834-5999-49f6-85f8-4ebf82fe02b5.png)
-
 미팅매칭 지원상세페이지 [https://wesejong.cafe24.com/meetmatch/event/applicationdetails?meetmatchteam_seq=20](https://wesejong.cafe24.com/meetmatch/event/applicationdetails?meetmatchteam_seq=20)
 
-### 관리자페이지입니다.
-
-Spring Security를 통해 role이 ‘admin’인 사용자는 로그인하자마자 바로 관리자페이지로 이동합니다.
-
+## 19. 관리자페이지
+> Spring Security를 통해 role이 ‘admin’인 사용자는 로그인하자마자 바로 관리자페이지로 이동합니다.
 1.회원관리메뉴
-
 Spring Security의 PasswordEncoder로 모든 패스워드는 암호화된 상태에서만 입력됩니다.
-
 2.테이블관리메뉴
-
 게시판의 유연한 관리를 위해 게시판정보의 삽입,삭제,수정이 가능합니다.
-
 3.사용자관리메뉴
-
 alarm(알람) 목록, chatrom(채팅방) 목록, chatroomjoin(채팅에 들어가있는 사용자관리) 목록을 볼수 있습니다.
-
 4.이벤트관리메뉴
-
 meetmatchmanage : 미팅매칭 이벤트 시작, 종료 데이터를 만듭니다.
-
 meetmatchpersonnelmanage : 미팅매칭 이벤트의 인원수를 결정합니다.(1:1, 2:2, 4:4 등등)
-
 meetmatchdepartment : 과 선택을 위해 만들었지만 실제로 사용하지는 않았습니다.
-
 meetmatchprofile : 프로필 저장을 위해 만들었지만 실제로 사용하지는 않았습니다.
-
 meetmatchteam : 미팅매칭에 신청한 팀의 목록을 보여줍니다.
-
 meematchteammate : 미팅매칭팀에 소속된 팀원들의 정보를 보여줍니다.
-
 이벤트랜덤미팅프로그램실행으로 무작위로 신청한 팀원들을 묶어줍니다.
-
 ![관리자페이지](https://user-images.githubusercontent.com/48047377/204066258-b3b75699-02fe-49df-991f-ae7784fc8bc8.png)
 
 관리자페이지
 
-# 미팅매칭서비스 개발 후 아쉬웠던점
+## 20. 미팅매칭서비스 개발 후 아쉬웠던점
 
-- 미팅매칭서비스 같은 경우, 모든 지원을 받은 후에 한꺼번에 매칭을 시켜주는 방식으로 프로그램을 만들었지만, 만들고 난 이후에 보니 일정기간동안 미팅매칭 이벤트를 자동으로 계속해서 연결되는 방식으로 만들어주는것이 사용자 입장에서 더 편하여 더 많은 사용자가 참여했을 것 같습니다. 또한 관리자 입장에서도 이것이 더 편할것같습니다.
-- 처음에 위와 같이 개발했던 이유는  사람들이 미팅매칭이벤트에 좀더 신뢰감을 가지길 원하는 이유로 한꺼번에 매칭을 잡아주는 방법을 개발하였지만, 사람들이 불편함을 느꼈고 그로인해 20명정도 밖에 지원하지 않은 것 같다고 느꼈습니다.
-- 또한 미팅매칭서비스 지원시 개인정보로 성별만 요구하였었는데, 개인정보를 많이 요구할경우 사용자들이 지원하지 않을것같아서 최대한 적은 정보로 지원을 진행했습니다. 그렇지만 지금 생각해보니 좀더 전화번호나 카카오아이디 같은 정보를 요구하여 확실히 매칭시켜준다는 신뢰감을 주는것이 더 좋았을 것 같습니다.
+> 미팅매칭서비스 같은 경우, 모든 지원을 받은 후에 한꺼번에 매칭을 시켜주는 방식으로 프로그램을 만들었지만, 만들고 난 이후에 보니 일정기간동안 미팅매칭 이벤트를 자동으로 계속해서 연결되는 방식으로 만들어주는것이 사용자 입장에서 더 편하여 더 많은 사용자가 참여했을 것 같습니다. 또한 관리자 입장에서도 이것이 더 편할것같습니다.
+> 처음에 위와 같이 개발했던 이유는  사람들이 미팅매칭이벤트에 좀더 신뢰감을 가지길 원하는 이유로 한꺼번에 매칭을 잡아주는 방법을 개발하였지만, 사람들이 불편함을 느꼈고 그로인해 20명정도 밖에 지원하지 않은 것 같다고 느꼈습니다.
+> 또한 미팅매칭서비스 지원시 개인정보로 성별만 요구하였었는데, 개인정보를 많이 요구할경우 사용자들이 지원하지 않을것같아서 최대한 적은 정보로 지원을 진행했습니다. 그렇지만 지금 생각해보니 좀더 전화번호나 카카오아이디 같은 정보를 요구하여 확실히 매칭시켜준다는 신뢰감을 주는것이 더 좋았을 것 같습니다.
