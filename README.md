@@ -279,106 +279,67 @@
 
 Spring Websocket With Stomp 채팅화면 , test1과 test2가 서로 채팅하는모습[https://wesejong.cafe24.com/socket/chat?chatroom_uuid=868e383c-1ffb-4f08-84c8-e15cca6f1864](https://wesejong.cafe24.com/socket/chat?chatroom_uuid=868e383c-1ffb-4f08-84c8-e15cca6f1864&new_board_id_999=1&new_board_id_101=0&new_board_id_102=0&new_board_id_103=0&new_board_id_104=0&new_board_id_105=0&new_board_id_106=0&new_board_id_201=0&new_board_id_202=0&new_board_id_203=0&new_board_id_204=0&new_board_id_205=0&new_board_id_206=0&new_board_id_301=0&new_board_id_302=0&new_board_id_303=0&new_board_id_304=1&new_board_id_305=0&new_board_id_306=0&new_board_id_401=0&new_board_id_402=0&new_board_id_403=0&new_board_id_404=0&new_board_id_405=0&new_board_id_406=0&new_board_id_501=0&new_board_id_502=1&new_board_id_503=0&new_board_id_504=0&new_board_id_505=0&new_board_id_506=0&new_alarm=3)
 
-### 게시글목록화면입니다.
-
-게시글에서는 검색(제목 + 내용)이 가능합니다.
-
-관리자는 관리자메뉴에서 공지글을 등록할 수 있습니다.
-
-또한 이미지파일이 있을시 목록에 이미지파일 표시, 댓글표시 등이 나타납니다.
+## 10. 게시글목록
+> 게시글에서는 검색(제목 + 내용)이 가능합니다. 또한 관리자는 관리자메뉴에서 공지글을 등록할 수 있습니다. 이미지파일이 있을시 목록에 이미지파일 표시, 댓글표시 등이 나타납니다.
 
 ![Untitled](https://user-images.githubusercontent.com/48047377/204066172-6a9e0c37-3ec2-43df-b87d-a064dc322d08.png)
-
 ![게시판 목록화면 [https://wesejong.cafe24.com/board/list?board_id=103](https://wesejong.cafe24.com/board/list?board_id=103)](https://user-images.githubusercontent.com/48047377/204066174-3650a835-d75d-45af-97da-d3525bb72361.png)
-
 게시판 목록화면 [https://wesejong.cafe24.com/board/list?board_id=103](https://wesejong.cafe24.com/board/list?board_id=103)
 
-### 게시글 상세보기입니다.
+## 11. 게시글 상세보기
 
-게시글 좋아요, 싫어요기능
-
-댓글 달기, 대댓글달기 기능이 있습니다.
-
-<맛집게시판, 맛집게시판에 올려진 게시글상세보기입니다>
+> 게시글 좋아요, 싫어요기능, 댓글 달기, 대댓글달기 기능이 있습니다. 작성자는 원하는 이미지를 원하는 사이즈로 올릴 수 있습니다.
+> <맛집게시판, 맛집게시판에 올려진 게시글상세보기입니다> 
 
 ![Untitled](https://user-images.githubusercontent.com/48047377/204066176-d010f936-d727-4a04-b5c3-4521be6b7474.png)
-
 ![Untitled](https://user-images.githubusercontent.com/48047377/204066178-0bcb32e3-e2ec-445f-976e-7bfc05949cf9.png)
-
 ![Untitled](https://user-images.githubusercontent.com/48047377/204066179-1df9749b-b2f7-4a97-8458-244397a61f29.png)
-
 ![Untitled](https://user-images.githubusercontent.com/48047377/204066180-448ae8f3-0e9d-4195-a846-9e6501d9a676.png)
-
 ![Untitled](https://user-images.githubusercontent.com/48047377/204066182-b4d1a134-e97c-48de-bd4c-47404a05a636.png)
-
 ![Untitled](https://user-images.githubusercontent.com/48047377/204066185-3fc66e59-f812-45fd-aea6-fd5709c9e34c.png)
-
 ![Untitled](https://user-images.githubusercontent.com/48047377/204066186-538348e5-190c-4faa-a727-053f7f3485f2.png)
-
 ![게시판 상세보기 화면1 [https://wesejong.cafe24.com/board/get?bno=6](https://wesejong.cafe24.com/board/get?bno=6)](https://user-images.githubusercontent.com/48047377/204066189-72e6f968-5ba1-43bb-9c04-90fb4679d9b7.png)
-
 게시판 상세보기 화면1 [https://wesejong.cafe24.com/board/get?bno=6](https://wesejong.cafe24.com/board/get?bno=6)
 
-### <자유게시판 - 가입인사하는 상세글입니다.>
+<!-- 
+## 11-1 게시글 상세보기
 
 ![Untitled](https://user-images.githubusercontent.com/48047377/204066194-193d866c-ee04-406a-bd54-40e4883cb97f.png)
-
 ![Untitled](https://user-images.githubusercontent.com/48047377/204066197-15fbc0f9-f118-469e-972d-b1b3110cf2f5.png)
-
 ![Untitled](https://user-images.githubusercontent.com/48047377/204066199-a4188a86-ab11-40ea-a639-8da74f941231.png)
-
 ![게시판 상세보기 화면2 [https://wesejong.cafe24.com/board/get?bno=8&board_id=103&pageNum=1&amount=20#](https://wesejong.cafe24.com/board/get?bno=8&board_id=103&pageNum=1&amount=20#)](https://user-images.githubusercontent.com/48047377/204066201-06a84099-bd34-4bb2-9f42-cd2278abd7eb.png)
-
 게시판 상세보기 화면2 [https://wesejong.cafe24.com/board/get?bno=8&board_id=103&pageNum=1&amount=20#](https://wesejong.cafe24.com/board/get?bno=8&board_id=103&pageNum=1&amount=20#)
 
-### 게시글 등록화면입니다.
-
-CKEDITOR를 이미지 첨부, 글꼴 편집이 가능합니다.
-
-CKEDITOR YOUTUBE Plugin을 통해 퍼오기가 가능합니다.
-
-게시글 왼쪽상단에 게시판을 설정하여 원하는 게시판에 글을 작성할 수 있습니다.
+ -->
+ 
+## 12. 게시글 등록
+>CKEDITOR를 활용하여 웹에디터로 사용했습니다. 이미지 첨부, 글꼴 편집이 가능합니다. 또, CKEDITOR YOUTUBE Plugin을 통해 퍼오기가 가능합니다. 게시글 왼쪽상단에 게시판을 설정하여 원하는 게시판에 글을 작성할 수 있습니다.
 
 ![Untitled](https://user-images.githubusercontent.com/48047377/204066207-64f81bf4-dad7-42b9-b99a-4ed524680c25.png)
-
 ![게시글 등록화면](https://user-images.githubusercontent.com/48047377/204066211-61e8140f-6f13-46cb-ab2e-55e397b7430b.png)
-
 게시글 등록화면
 
-### 위의 작성한 글의 상세보기입니다.
-
+## 12.1 작성한 글의 상세보기
 ![Untitled](https://user-images.githubusercontent.com/48047377/204066222-856d9048-19f6-4584-b16d-02e0eb3b6739.png)
-
 ![게시글 상세화면](https://user-images.githubusercontent.com/48047377/204066218-d3daec84-4308-424b-89e6-7a2d62cd5db3.png)
-
 게시글 상세화면
 
-## **미팅매칭설명페이지입니다.**
+## 13. 미팅매칭설명
+> 오픈이벤트로 미팅매칭 이벤트를 열어보았습니다. 사용자는 같이 신청할 팀원을 선정하여 초대하게 되고, 초대받게 된 사람들은 알람내역으로 온 알람을 통해 수락을 해야 참여가 가능합니다.
 
 ![미팅매칭 설명페이지1 [https://wesejong.cafe24.com/meetmatch/event/explanation](https://wesejong.cafe24.com/meetmatch/event/explanation)](https://user-images.githubusercontent.com/48047377/204066231-ed92d324-a253-4b48-b5a0-1b883f0d02de.png)
-
-미팅매칭 설명페이지1 [https://wesejong.cafe24.com/meetmatch/event/explanation](https://wesejong.cafe24.com/meetmatch/event/explanation)
-
+[https://wesejong.cafe24.com/meetmatch/event/explanation](https://wesejong.cafe24.com/meetmatch/event/explanation)
 ![미팅매칭 설명페이지2 [https://wesejong.cafe24.com/meetmatch/event/explanation](https://wesejong.cafe24.com/meetmatch/event/explanation)](https://user-images.githubusercontent.com/48047377/204066234-2d2ea216-b84f-4712-a673-274ec87bbeb3.png)
-
-미팅매칭 설명페이지2 [https://wesejong.cafe24.com/meetmatch/event/explanation](https://wesejong.cafe24.com/meetmatch/event/explanation)
-
+[https://wesejong.cafe24.com/meetmatch/event/explanation](https://wesejong.cafe24.com/meetmatch/event/explanation)
 ![미팅매칭 설명페이지3 [https://wesejong.cafe24.com/meetmatch/event/explanation](https://wesejong.cafe24.com/meetmatch/event/explanation)](https://user-images.githubusercontent.com/48047377/204066235-76201c7c-2cb5-4f19-abfd-9f1349388f0f.png)
-
-미팅매칭 설명페이지3 [https://wesejong.cafe24.com/meetmatch/event/explanation](https://wesejong.cafe24.com/meetmatch/event/explanation)
-
+[https://wesejong.cafe24.com/meetmatch/event/explanation](https://wesejong.cafe24.com/meetmatch/event/explanation)
 ![미팅매칭 설명페이지4 [https://wesejong.cafe24.com/meetmatch/event/explanation](https://wesejong.cafe24.com/meetmatch/event/explanation)](https://user-images.githubusercontent.com/48047377/204066240-a9ed1130-d754-4363-82f5-1c6b15d7e7c7.png)
-
-미팅매칭 설명페이지4 [https://wesejong.cafe24.com/meetmatch/event/explanation](https://wesejong.cafe24.com/meetmatch/event/explanation)
-
+[https://wesejong.cafe24.com/meetmatch/event/explanation](https://wesejong.cafe24.com/meetmatch/event/explanation)
 ![미팅매칭 설명페이지5 [https://wesejong.cafe24.com/meetmatch/event/explanation](https://wesejong.cafe24.com/meetmatch/event/explanation)](https://user-images.githubusercontent.com/48047377/204066244-e1dffd2a-1123-4487-a5b9-4644c0dd8235.png)
+[https://wesejong.cafe24.com/meetmatch/event/explanation](https://wesejong.cafe24.com/meetmatch/event/explanation)
 
-미팅매칭 설명페이지5 [https://wesejong.cafe24.com/meetmatch/event/explanation](https://wesejong.cafe24.com/meetmatch/event/explanation)
-
-### 지원서작성화면입니다.
-
+## 14. 지원서작성화면
 ![미팅매칭 지원서 작성화면1 [https://wesejong.cafe24.com/meetmatch/event/explanation](https://wesejong.cafe24.com/meetmatch/event/explanation)](https://user-images.githubusercontent.com/48047377/204066246-a1d6ae62-1dcb-4916-a634-555cc23c8043.png)
-
 미팅매칭 지원서 작성화면1 [https://wesejong.cafe24.com/meetmatch/event/explanation](https://wesejong.cafe24.com/meetmatch/event/explanation)
 
 ### 지원서작성화면입니다.
