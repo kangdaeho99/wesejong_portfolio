@@ -191,60 +191,42 @@
 테스트 계정 ID/PW : test1 / test1  
 테스트 계정 ID/PW : test2 / test2 
 
-## 1.메인페이지입니다.
+##  1.메인페이지(모바일화면도 제공합니다.) 
 
-로그인을 한상태로만 사이트에 접속이 가능하니 위의 테스트계정으로 접속바랍니다.
-
+> 로그인을 한상태로만 사이트에 기능을 사용가능합니다. Spring Security를 활용하여 Role에 허가된 권한자만 접근할 수 있도록 설정했습니다. 테스트계정으로 접속바랍니다.
+테스트 계정 ID/PW : test1 / test1  
+테스트 계정 ID/PW : test2 / test2 
 ![Untitled](https://user-images.githubusercontent.com/48047377/204066126-2b4bc0f4-2cb2-44e2-96ae-3d17cf44569b.png)
-
 ![Untitled](https://user-images.githubusercontent.com/48047377/204066128-e620e1d5-9a49-4c2a-8fe7-895ec9f82d78.png)
-
 ![Untitled](https://user-images.githubusercontent.com/48047377/204066130-67620195-160c-4609-af6f-a1242d98aedf.png)
-
 ![메인페이지 [https://wesejong.cafe24.com/](https://wesejong.cafe24.com/)](https://user-images.githubusercontent.com/48047377/204066134-5f76a35b-88e1-4155-8dae-6f8dacc09060.png)
-
 메인페이지 [https://wesejong.cafe24.com/](https://wesejong.cafe24.com/)
 
-### 로그인화면입니다.
+## 2. 로그인
 
-spring security를 활용하여 관리자, 멤버별로 접근할 수 있는 페이지를 지정했습니다. 
-
-관리자 권한(role = admin)이라면, 관리자페이지로 이동합니다.
-
-일반회원 권한(role = member)이라면, 메인페이지로 이동합니다.
-
+> spring security를 활용하여 관리자, 멤버별로 접근할 수 있는 페이지를 지정했습니다. 
+로그인에 성공할시 (role = admin)이라면, 관리자페이지로 이동합니다.
+(role = member)이라면, 메인페이지로 이동합니다.
 ![Untitled](https://user-images.githubusercontent.com/48047377/204066138-e311cbda-5433-4ccc-b133-242b577b6bbc.png)
-
 ![위세종 로그인화면 [https://wesejong.cafe24.com/member/login](https://wesejong.cafe24.com/member/login)](https://user-images.githubusercontent.com/48047377/204066141-3134dbc0-1f06-454e-a82d-3dcebfdd6d1b.png)
-
 위세종 로그인화면 [https://wesejong.cafe24.com/member/login](https://wesejong.cafe24.com/member/login)
 
-### 회원가입화면입니다.
+## 2. 회원가입
 
-회원가입을 진행하면서 각각의 정보들을 입력하면서 자바스크립트로 유효성검사들을 처리해주고, 
-
-세종대학교 재학생만 가지고 있는 이메일 주소인 @sju.ac.kr 을 통하여 재학생인증을 하도록 개발했습니다. 이메일 인증번호를 Spring Session에 저장하여 사용자가 이메일번호를 보지못하도록 개발하였습니다.
-
+> 회원가입을 진행하면서 각각의 정보들을 입력하면서 자바스크립트로 유효성검사들을 처리해주고, 
+세종대학교 재학생만 가지고 있는 이메일 주소인 @sju.ac.kr 을 통하여 재학생인증을 하도록 개발했습니다. 이메일 인증번호를 Spring Session에 저장하여 사용자가 악의적으로 접근할 수 없도록 개발하였습니다.
 ![Untitled](https://user-images.githubusercontent.com/48047377/204066144-6f7494b8-378d-48b8-bdf9-5df3c72d3115.png)
-
 ![회원가입화면 [https://wesejong.cafe24.com/member/join](https://wesejong.cafe24.com/member/join)](https://user-images.githubusercontent.com/48047377/204066145-e709b2f0-95e6-4506-84dd-5e62e597f9f3.png)
-
 회원가입화면 [https://wesejong.cafe24.com/member/join](https://wesejong.cafe24.com/member/join)
 
-### 인증번호발송화면입니다.
-
-세종대학교 학생만 가입할 수 있게 세종대학생만이 가입가능한 학교이메일(@sju.ac.kr)로만 발송될 수 있게 처리했습니다.
-
+## 3. 인증번호발송
+> 세종대학교 학생만 가입할 수 있게 세종대학생만이 가입가능한 학교이메일(@sju.ac.kr)로만 발송될 수 있게 처리했습니다.
 또한 인증번호발송은 wesejong@[weseong.cafe24.com](http://weseong.cafe24.com)  구글 SMTP를 사용하여 메일을 발송하였습니다
-
 ![위세종 SMTP를 활용한 메일인증화면](https://user-images.githubusercontent.com/48047377/204066148-6a63f6ec-da3f-45a3-91bd-cbc755b97dcd.png)
-
 위세종 SMTP를 활용한 메일인증화면
 
-### 아이디찾기, 패스워드찾기 화면입니다.
-
-위세종 아이디/비밀번호를 분실하였을때 이메일 인증번호를 통하여 아이디 찾기,패스워드 찾기 기능입니다.
-
+## 4. 아이디찾기, 패스워드찾기
+> 위세종 아이디/비밀번호를 분실하였을때 이메일 인증번호를 통하여 아이디 찾기,패스워드 찾게 도와줍니다.
 <!-- ![아이디찾기 화면 [https://wesejong.cafe24.com/member/forgot](https://wesejong.cafe24.com/member/forgot)](https://user-images.githubusercontent.com/48047377/204066151-3a293d92-b84f-44de-b03e-46a8e19b6bf9.png) -->
 <img src="https://user-images.githubusercontent.com/48047377/204066151-3a293d92-b84f-44de-b03e-46a8e19b6bf9.png" width="50%"/>
 
@@ -256,58 +238,35 @@ spring security를 활용하여 관리자, 멤버별로 접근할 수 있는 페
 
 패스워드찾기화면 [https://wesejong.cafe24.com/member/forgot](https://wesejong.cafe24.com/member/forgot)
 
-### 마이페이지 화면입니다.
-
-본인의 아이디, 닉네임, 이메일, 학번을 볼 수 있습니다.
-
-또한, 사용자는 닉네임 변경, 탈퇴하기 기능, 비밀번호 변경을 할 수 있습니다.
-
-Session을 통해 현재 로그인한 사용자 고유번호를 통해 정보를 가져옵니다.
+## 5. 마이페이지
+> 본인의 아이디, 닉네임, 이메일, 학번을 볼 수 있습니다.
+또한, 사용자는 닉네임 변경, 탈퇴하기 기능, 비밀번호 변경을 할 수 있습니다. Spring Security의 객체를 Session 관리를 통해 현재 로그인한 사용자 고유번호를 통해 정보를 가져옵니다.
 
 ![Untitled](https://user-images.githubusercontent.com/48047377/204066155-eea9d478-e385-4879-b58d-1464cc0ae064.png)
-
 ![마이페이지화면 [https://wesejong.cafe24.com/member/mypage#](https://wesejong.cafe24.com/member/mypage#)](https://user-images.githubusercontent.com/48047377/204066159-b7753a3c-b594-4e4a-bcf2-5f6fa31ccde0.png)
-
 마이페이지화면 [https://wesejong.cafe24.com/member/mypage#](https://wesejong.cafe24.com/member/mypage#)
 
-### 탈퇴하기화면입니다.
-
-[마이페이지]-[탈퇴하기] 버튼을 눌렀을떄 화면입니다.
-
+## 6. 탈퇴
+> [마이페이지]-[탈퇴하기] 를 통해 탈퇴할 수 있습니다..
 <!-- ![탈퇴하기기능 화면 [https://wesejong.cafe24.com/member/secession](https://wesejong.cafe24.com/member/secession)](https://user-images.githubusercontent.com/48047377/204066160-fe92864b-874c-4a1c-b7b8-4a682539a240.png) -->
-
 <img src="https://user-images.githubusercontent.com/48047377/204066160-fe92864b-874c-4a1c-b7b8-4a682539a240.png" width="50%"/>
 
 탈퇴하기기능 화면 [https://wesejong.cafe24.com/member/secession](https://wesejong.cafe24.com/member/secession)
 
-### 알림내역화면입니다.
-
-회원이 받은 알림을 확인할 수 있습니다.
-
-회원가입을 완료하였을때, 미팅매칭에서 이벤트 신청이 완료되었을때 알림이 나오게 만들었습니다.
-
+## 7. 알림내역
+> 회원이 받은 알림을 확인할 수 있습니다. 처음에 회원가입을 완료하였을때, 미팅매칭에서 이벤트 신청이 완료되었을때 알림이 오게 만들었습니다.
 ![알림내역 확인 [https://wesejong.cafe24.com/member/info/alarm#](https://wesejong.cafe24.com/member/info/alarm#)](https://user-images.githubusercontent.com/48047377/204066162-f0296b96-4336-4b3d-a3f9-bda5b7def092.png)
-
 알림내역 확인 [https://wesejong.cafe24.com/member/info/alarm#](https://wesejong.cafe24.com/member/info/alarm#)
 
-### 채팅내역화면입니다.
+## 8. 채팅방내역
 
-본인이 채팅하고 있는 채팅목록이 나옵니다.
-
-채팅방에는 여러명의 사람들이 들어와 함께 채팅할 수 있습니다.
-
-채팅같은경우, 게시글의 작성자, 댓글을 쓴 사람들에게 채팅을 걸 수 있습니다.
-
+> 본인이 채팅하고 있는 채팅목록이 나옵니다.채팅방에는 여러명의 사람들이 들어와 함께 채팅할 수 있습니다. 채팅같은경우, 게시글의 작성자, 댓글을 쓴 사람들에게 채팅을 걸 수 있습니다.
 ![채팅목록화면 [https://wesejong.cafe24.com/member/info/chatroomlist](https://wesejong.cafe24.com/member/info/chatroomlist)](https://user-images.githubusercontent.com/48047377/204066165-2e6560fe-b1b7-48ac-ab5b-489b5d89b022.png)
-
 채팅목록화면 [https://wesejong.cafe24.com/member/info/chatroomlist](https://wesejong.cafe24.com/member/info/chatroomlist)
 
-### 채팅방화면입니다.
-
-Spring WebSocket with Stomp(스트리밍 텍스트 지향 프로토콜)를 통하여 채팅기능을 구현했습니다. 
-
-채팅을 하는 모습입니다. 오른쪽 상단의 나가기버튼을 통해 채팅방에서 아예 나갈 수 있습니다.
-
+## 9. 채팅방
+> Spring WebSocket with Stomp(스트리밍 텍스트 지향 프로토콜)를 통하여 채팅기능을 구현했습니다. Stomp 메세지 브로커를 활용하여 메세지를 전송하고 받는것을 topic/subscribe의 구조로 만들었습니다. 
+> 채팅을 하는 모습입니다. 오른쪽 상단의 나가기버튼을 통해 채팅방에서 아예 나갈 수 있습니다.
 ![Spring Websocket With Stomp 채팅화면 , test1과 test2가 서로 채팅하는모습[https://wesejong.cafe24.com/socket/chat?chatroom_uuid=868e383c-1ffb-4f08-84c8-e15cca6f1864](https://wesejong.cafe24.com/socket/chat?chatroom_uuid=868e383c-1ffb-4f08-84c8-e15cca6f1864&new_board_id_999=1&new_board_id_101=0&new_board_id_102=0&new_board_id_103=0&new_board_id_104=0&new_board_id_105=0&new_board_id_106=0&new_board_id_201=0&new_board_id_202=0&new_board_id_203=0&new_board_id_204=0&new_board_id_205=0&new_board_id_206=0&new_board_id_301=0&new_board_id_302=0&new_board_id_303=0&new_board_id_304=1&new_board_id_305=0&new_board_id_306=0&new_board_id_401=0&new_board_id_402=0&new_board_id_403=0&new_board_id_404=0&new_board_id_405=0&new_board_id_406=0&new_board_id_501=0&new_board_id_502=1&new_board_id_503=0&new_board_id_504=0&new_board_id_505=0&new_board_id_506=0&new_alarm=3)](https://user-images.githubusercontent.com/48047377/204066168-1cde6aa4-efe9-4373-9a84-216e3f6566df.png)
 
 Spring Websocket With Stomp 채팅화면 , test1과 test2가 서로 채팅하는모습[https://wesejong.cafe24.com/socket/chat?chatroom_uuid=868e383c-1ffb-4f08-84c8-e15cca6f1864](https://wesejong.cafe24.com/socket/chat?chatroom_uuid=868e383c-1ffb-4f08-84c8-e15cca6f1864&new_board_id_999=1&new_board_id_101=0&new_board_id_102=0&new_board_id_103=0&new_board_id_104=0&new_board_id_105=0&new_board_id_106=0&new_board_id_201=0&new_board_id_202=0&new_board_id_203=0&new_board_id_204=0&new_board_id_205=0&new_board_id_206=0&new_board_id_301=0&new_board_id_302=0&new_board_id_303=0&new_board_id_304=1&new_board_id_305=0&new_board_id_306=0&new_board_id_401=0&new_board_id_402=0&new_board_id_403=0&new_board_id_404=0&new_board_id_405=0&new_board_id_406=0&new_board_id_501=0&new_board_id_502=1&new_board_id_503=0&new_board_id_504=0&new_board_id_505=0&new_board_id_506=0&new_alarm=3)
