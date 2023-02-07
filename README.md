@@ -67,6 +67,7 @@
 - Mock & JUnit (Test)
 - HikariCP (Database Connection Configuration)
 - CAFE24, PUTTY, FILEZILLA (Infra)
+
 <!-- 
 ### Front & Backend
 
@@ -98,46 +99,45 @@
 
 ## 📒DB구조
 
----
 ![DB ERD](https://user-images.githubusercontent.com/48047377/209076110-03a1741c-822a-48fa-a3ea-3b5538a85346.PNG)
 
 
 <br/>
 <br/>
 
-**사이트접속방법 및 홍보방법**
+## 사이트접속방법 및 홍보방법
 
 - 구글에서 ‘wesejong’ 네이버에서 ‘wesejong’을 검색하면 접속가능합니다.
 - 에브리타임 홍보게시판, 세종대학교 갤러리에 홍보
 
 <!-- ![구글에서 ‘wesejong’을 검색한 그림](https://user-images.githubusercontent.com/48047377/204066102-9da07165-780b-4c7f-a554-907ebbfa7dfd.png) -->
-<img src="https://user-images.githubusercontent.com/48047377/204066102-9da07165-780b-4c7f-a554-907ebbfa7dfd.png" height="400">
+<img src="https://user-images.githubusercontent.com/48047377/204066102-9da07165-780b-4c7f-a554-907ebbfa7dfd.png" height="300" width="30%">
 <!-- 구글에서 ‘wesejong’을 검색한 그림 -->
 
 <!-- ![네이버에서 ‘wesejong’을 검색한 그림](https://user-images.githubusercontent.com/48047377/204066106-a17b1b7d-f7da-47fd-b52f-c32a2ec64b97.png) -->
-<img src="https://user-images.githubusercontent.com/48047377/204066106-a17b1b7d-f7da-47fd-b52f-c32a2ec64b97.png" height="400">
+<img src="https://user-images.githubusercontent.com/48047377/204066106-a17b1b7d-f7da-47fd-b52f-c32a2ec64b97.png" height="300" width="30%">
 <!-- 네이버에서 ‘wesejong’을 검색한 그림 -->
 
-<img src="https://user-images.githubusercontent.com/48047377/204066117-b23ca6ee-b03f-4158-a7e5-c9fd026ace4c.jpg" height="400">
+<img src="https://user-images.githubusercontent.com/48047377/204066117-b23ca6ee-b03f-4158-a7e5-c9fd026ace4c.jpg" height="300">
 
 <details>
 <summary><U>추가 홍보 이미지 클릭</U></summary>
 <div markdown="1">
 <!-- ![에브리타임에 홍보글1](https://user-images.githubusercontent.com/48047377/204066109-9b1f1c9d-a468-4ead-b9d6-f4134e42996e.jpg) -->
-<img src="https://user-images.githubusercontent.com/48047377/204066109-9b1f1c9d-a468-4ead-b9d6-f4134e42996e.jpg" height="400">
+<img src="https://user-images.githubusercontent.com/48047377/204066109-9b1f1c9d-a468-4ead-b9d6-f4134e42996e.jpg" height="300" width="30%">
 
 <!-- ![에브리타임홍보글2](https://user-images.githubusercontent.com/48047377/204066114-7d5f5934-a63c-4e16-b91d-0b0317635ab0.jpg) -->
-<img src="https://user-images.githubusercontent.com/48047377/204066114-7d5f5934-a63c-4e16-b91d-0b0317635ab0.jpg" height="400">
+<img src="https://user-images.githubusercontent.com/48047377/204066114-7d5f5934-a63c-4e16-b91d-0b0317635ab0.jpg" height="300" width="30%">
     
 
 <!-- ![에브리타임홍보글3](https://user-images.githubusercontent.com/48047377/204066117-b23ca6ee-b03f-4158-a7e5-c9fd026ace4c.jpg) -->
-<img src="https://user-images.githubusercontent.com/48047377/204066117-b23ca6ee-b03f-4158-a7e5-c9fd026ace4c.jpg" height="400">
+<img src="https://user-images.githubusercontent.com/48047377/204066117-b23ca6ee-b03f-4158-a7e5-c9fd026ace4c.jpg" height="300" width="30%">
 
 <!-- ![세종대학교 갤러리 홍보글1](https://user-images.githubusercontent.com/48047377/204066118-b42fff6f-0a89-4416-ad3f-e114ee0557b9.png) -->
-<img src="https://user-images.githubusercontent.com/48047377/204066118-b42fff6f-0a89-4416-ad3f-e114ee0557b9.png" height="400">
+<img src="https://user-images.githubusercontent.com/48047377/204066118-b42fff6f-0a89-4416-ad3f-e114ee0557b9.png" height="300" width="30%">
 
 <!-- ![세종대학교 갤러리 홍보글2](https://user-images.githubusercontent.com/48047377/204066120-b002c426-1004-45bf-ad86-0ede8efd722d.png) -->
-<img src="https://user-images.githubusercontent.com/48047377/204066120-b002c426-1004-45bf-ad86-0ede8efd722d.png" height="400">
+<img src="https://user-images.githubusercontent.com/48047377/204066120-b002c426-1004-45bf-ad86-0ede8efd722d.png" height="300" width="30%">
 
 </div>
 </details>
@@ -149,14 +149,13 @@
 **구현된기능**
 
 1) 사용자 (Spring Security)
-
-- 로그인
-- 회원가입
-- 회원탈퇴
-- 회원 비밀번호 찾기
-- 회원 비밀번호 수정
-- 회원 닉네임 변경
-- 회원정보확인(마이페이지)
+- 로그인할 수 있습니다.
+- 회원가입할 수 있습니다.
+- 회원탈퇴할 수 있습니다.
+- 회원 비밀번호 찾기할 수 있습니다.
+- 회원 비밀번호 수정할 수 있습니다.
+- 회원 닉네임 변경할 수 있습니다.
+- 회원정보확인(마이페이지)할 수 있습니다.
 - 사용자 간 채팅기능 ( 1:1 채팅, 단체채팅 )
 - 알림쪽지기능( 새로 회원가입시, 글에 댓글이 달릴시, 이벤트에 당첨되었을시 .. )
 
