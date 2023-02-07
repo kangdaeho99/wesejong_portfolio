@@ -5,10 +5,10 @@
 ## 🏫 **위세종(Wesju) , 세종대학교 웹커뮤니티 사이트**
 > 세종대학교 재학생만을 위해 제공하는 커뮤니티 사이트입니다.
 
-**링크 : [https://wesejong.cafe24.com](https://wesejong.cafe24.com)     (Chrome 환경에서 접속)** <br/>
-**깃허브소스코드 :** [https://github.com/kangdaeho99/wesejong_public_portfolio](https://github.com/kangdaeho99/wesejong_public_portfolio) <br/>
-테스트 계정 ID/PW : test1 / test1 <br/>
-테스트 계정 ID/PW : test2 / test2 
+- **링크 : [https://wesejong.cafe24.com](https://wesejong.cafe24.com)     (Chrome 환경에서 접속)** <br/>
+- **깃허브소스코드 :** [https://github.com/kangdaeho99/wesejong_public_portfolio](https://github.com/kangdaeho99/wesejong_public_portfolio) <br/>
+- 테스트 계정 ID/PW : test1 / test1 <br/>
+- 테스트 계정 ID/PW : test2 / test2 
 
 ![[https://wesejong.cafe24.com](https://wesejong.cafe24.com/)](https://user-images.githubusercontent.com/48047377/204066094-5732b691-0144-47f3-ae5d-ad451f13414f.png)
 
