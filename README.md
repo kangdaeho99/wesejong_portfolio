@@ -3,8 +3,8 @@
 -->
 
 ## 🏫 **위세종(Wesju) , 세종대학교 웹커뮤니티 사이트**
-> 세종대학교 학생들이 이용할 수 있는 학생 커뮤니티 사이트입니다.
-> 웹커뮤니티로써 세종대학교 재학생만 가입할 수 있고, 게시글을 작성할 수 있고, 채팅기능을 사용할 수 있고, 일반 커뮤니티 사이트에서 제공하는 기능을 제공합니다.
+> 세종대학교 학생들이 이용할 수 있는 학생 커뮤니티 사이트입니다. <br/>
+> 세종대학교 재학생만 가입할 수 있고, 일반 커뮤니티 사이트에서 제공하는 기능(게시판, 이미지, 채팅, 알림, 회원관리)을 제공합니다.
 
 **링크 : [https://wesejong.cafe24.com](https://wesejong.cafe24.com)     (Chrome 환경에서 접속)** <br/>
 **깃허브소스코드 :** [https://github.com/kangdaeho99/wesejong_public_portfolio](https://github.com/kangdaeho99/wesejong_public_portfolio) <br/>
