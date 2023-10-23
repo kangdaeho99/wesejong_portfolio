@@ -262,7 +262,8 @@
 
 ## 9. 채팅방
 > Spring WebSocket with Stomp(스트리밍 텍스트 지향 프로토콜)를 통하여 채팅기능을 구현했습니다. Stomp 메세지 브로커를 활용하여 메세지를 전송하고 받는것을 topic/subscribe의 구조로 만들었습니다.
-(https://user-images.githubusercontent.com/48047377/277212923-7ba0d192-820d-4838-892a-b328da52de4d.png)
+
+![277212923-7ba0d192-820d-4838-892a-b328da52de4d](https://github.com/we-sju/wesejong_public_portfolio/assets/48047377/df4f54c9-b62e-4316-aeab-5d355db2645a)
  
 > 채팅을 하는 모습입니다. 오른쪽 상단의 나가기버튼을 통해 채팅방에서 아예 나갈 수 있습니다.
 
