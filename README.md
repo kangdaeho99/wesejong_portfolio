@@ -317,7 +317,7 @@ Spring Websocket With Stomp 채팅화면 , test1과 test2가 서로 채팅하는
 ![게시글 상세화면](https://user-images.githubusercontent.com/48047377/204066218-d3daec84-4308-424b-89e6-7a2d62cd5db3.png)
 
 
-## 13. 미팅매칭설명
+## 13. MeetMachExplanation
 > 오픈이벤트로 미팅매칭 이벤트를 열어보았습니다. 사용자는 같이 신청할 팀원을 선정하여 초대하게 되고, 초대받게 된 사람들은 알람내역으로 온 알람을 통해 수락을 해야 참여가 가능합니다.
 
 ![미팅매칭 설명페이지1 [https://wesejong.cafe24.com/meetmatch/event/explanation](https://wesejong.cafe24.com/meetmatch/event/explanation)](https://user-images.githubusercontent.com/48047377/204066231-ed92d324-a253-4b48-b5a0-1b883f0d02de.png)
