@@ -261,7 +261,9 @@
 채팅목록화면 [https://wesejong.cafe24.com/member/info/chatroomlist](https://wesejong.cafe24.com/member/info/chatroomlist)
 
 ## 9. 채팅방
-> Spring WebSocket with Stomp(스트리밍 텍스트 지향 프로토콜)를 통하여 채팅기능을 구현했습니다. Stomp 메세지 브로커를 활용하여 메세지를 전송하고 받는것을 topic/subscribe의 구조로 만들었습니다. 
+> Spring WebSocket with Stomp(스트리밍 텍스트 지향 프로토콜)를 통하여 채팅기능을 구현했습니다. Stomp 메세지 브로커를 활용하여 메세지를 전송하고 받는것을 topic/subscribe의 구조로 만들었습니다.
+(https://user-images.githubusercontent.com/48047377/277212923-7ba0d192-820d-4838-892a-b328da52de4d.png)
+ 
 > 채팅을 하는 모습입니다. 오른쪽 상단의 나가기버튼을 통해 채팅방에서 아예 나갈 수 있습니다.
 
 ![Spring Websocket With Stomp 채팅화면 , test1과 test2가 서로 채팅하는모습[https://wesejong.cafe24.com/socket/chat?chatroom_uuid=868e383c-1ffb-4f08-84c8-e15cca6f1864](https://wesejong.cafe24.com/socket/chat?chatroom_uuid=868e383c-1ffb-4f08-84c8-e15cca6f1864&new_board_id_999=1&new_board_id_101=0&new_board_id_102=0&new_board_id_103=0&new_board_id_104=0&new_board_id_105=0&new_board_id_106=0&new_board_id_201=0&new_board_id_202=0&new_board_id_203=0&new_board_id_204=0&new_board_id_205=0&new_board_id_206=0&new_board_id_301=0&new_board_id_302=0&new_board_id_303=0&new_board_id_304=1&new_board_id_305=0&new_board_id_306=0&new_board_id_401=0&new_board_id_402=0&new_board_id_403=0&new_board_id_404=0&new_board_id_405=0&new_board_id_406=0&new_board_id_501=0&new_board_id_502=1&new_board_id_503=0&new_board_id_504=0&new_board_id_505=0&new_board_id_506=0&new_alarm=3)](https://user-images.githubusercontent.com/48047377/204066168-1cde6aa4-efe9-4373-9a84-216e3f6566df.png)
